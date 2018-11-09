@@ -26,19 +26,20 @@ def speechmatics_converter(data: Dict[str, Union[Dict[str, str], List[Dict[str, 
     punc_before = False
     punc_after = False
     num_words = len(words)
+    index = 0
 
-    for index, w in enumerate(words):
+    for i, w in enumerate(words):
         word_start = float(w['time'])
         word_end = word_start + float(w['duration'])
         confidence = float(w['confidence'])
         word = w['name']
         if word == '.':
             continue
-        is_proper_noun = tagged_words[index][1] in PROPER_NOUN_TAGS
+        is_proper_noun = tagged_words[i][1] in PROPER_NOUN_TAGS
 
         next_word = None
-        if index < num_words - 1:
-            next_word = words[index + 1]['name']
+        if i < num_words - 1:
+            next_word = words[i + 1]['name']
         if next_word == '.':
             punc_after = '.'
 
@@ -53,6 +54,7 @@ def speechmatics_converter(data: Dict[str, Union[Dict[str, str], List[Dict[str, 
             'puncBefore': punc_before,
         })
 
+        index += 1
         punc_after = False
 
     return converted_words
