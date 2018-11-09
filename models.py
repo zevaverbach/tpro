@@ -10,13 +10,6 @@ class TranscriptConverter:
         self.path = path
         with open(path, 'r') as fin:
             self.words = converters[format_name](json.load(fin))
-            # wordStart
-            # wordEnd
-            # word
-            # confidence
-            # index
-            # space
-            # alwaysCapitalized
 
     def to_json(self):
         return json.dumps(self.words, indent=4)

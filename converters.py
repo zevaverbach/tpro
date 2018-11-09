@@ -1,3 +1,18 @@
+"""
+
+fields for converted transcript:
+
+    wordStart
+    wordEnd
+    word
+    confidence
+    index
+    alwaysCapitalized
+    puncBefore
+    puncAfter
+
+"""
+
 from decimal import Decimal
 from typing import Dict, Union, List
 
@@ -8,23 +23,38 @@ def speechmatics_converter(data: Dict[str, Union[Dict[str, str], List[Dict[str, 
     converted_words = []
     words = data['words']
     tagged_words = tag_words([w['name'] for w in words])
+    punc_before = False
+    punc_after = False
+    num_words = len(words)
 
     for index, w in enumerate(words):
-        word_start = Decimal(w['time'])
-        word_end = word_start + Decimal(w['duration'])
-        confidence = Decimal(w['confidence'])
+        word_start = float(w['time'])
+        word_end = word_start + float(w['duration'])
+        confidence = float(w['confidence'])
         word = w['name']
-        space = '' if word == '.' else ' '
+        if word == '.':
+            continue
         is_proper_noun = tagged_words[index][1] in PROPER_NOUN_TAGS
+
+        next_word = None
+        if index < num_words - 1:
+            next_word = words[index + 1]['name']
+        if next_word == '.':
+            punc_after = '.'
+
         converted_words.append({
             'wordStart': word_start,
             'wordEnd': word_end,
             'confidence': confidence,
             'word': word,
-            'space': space,
             'alwaysCapitalized': is_proper_noun or word == 'I',
             'index': index,
+            'puncAfter': punc_after,
+            'puncBefore': punc_before,
         })
+
+        punc_after = False
+
     return converted_words
 
 
