@@ -8,8 +8,8 @@ class TranscriptConverter:
 
     def __init__(self, path, format_name):
         self.path = path
-        with open(path, 'r') as fin:
-            self.words = converters[format_name](json.load(fin))
+        with open(path) as f:
+            self.words = converters[format_name](f)
 
     def to_json(self):
         return json.dumps(self.words, indent=4)

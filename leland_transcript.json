@@ -1,0 +1,2589 @@
+{
+  "job": {
+    "lang": "en",
+    "user_id": 2262,
+    "name": "What humanity will gain by going to Mars _ Leland Melvin-ZKTTZvWsovQ.mp3",
+    "duration": 283,
+    "created_at": "Mon Nov 12 14:57:06 2018",
+    "id": 9872366
+  },
+  "speakers": [
+    {
+      "duration": "270.94",
+      "confidence": null,
+      "name": "M2",
+      "time": "5.98"
+    }
+  ],
+  "words": [
+    {
+      "duration": "0.13",
+      "confidence": "0.670",
+      "name": "For",
+      "time": "5.98"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "humans",
+      "time": "6.14"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.990",
+      "name": "to",
+      "time": "6.59"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "live",
+      "time": "6.68"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "on",
+      "time": "6.89"
+    },
+    {
+      "duration": "0.75",
+      "confidence": "1.000",
+      "name": "Mars",
+      "time": "6.98"
+    },
+    {
+      "duration": "0.38",
+      "confidence": "0.580",
+      "name": "and",
+      "time": "7.75"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "not",
+      "time": "8.18"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "just",
+      "time": "8.45"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "make",
+      "time": "8.66"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "8.87"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "lot",
+      "time": "8.93"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "9.05"
+    },
+    {
+      "duration": "0.87",
+      "confidence": "1.000",
+      "name": "potatoes",
+      "time": "9.11"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "10.07"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "live",
+      "time": "10.70"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "off",
+      "time": "10.97"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "0.960",
+      "name": "the",
+      "time": "11.12"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "potatoes",
+      "time": "11.18"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "11.63"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "0.900",
+      "name": "a",
+      "time": "11.75"
+    },
+    {
+      "duration": "0.37",
+      "confidence": "0.900",
+      "name": "while",
+      "time": "11.81"
+    },
+    {
+      "duration": "0.37",
+      "confidence": "0.390",
+      "name": "is",
+      "time": "12.50"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "just",
+      "time": "12.98"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.940",
+      "name": "the",
+      "time": "13.25"
+    },
+    {
+      "duration": "0.69",
+      "confidence": "1.000",
+      "name": "habitat",
+      "time": "13.37"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.980",
+      "name": "the",
+      "time": "14.12"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "0.970",
+      "name": "systems",
+      "time": "14.27"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "itself",
+      "time": "14.90"
+    },
+    {
+      "duration": "0.54",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "15.38"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "16.25"
+    },
+    {
+      "duration": "0.87",
+      "confidence": "1.000",
+      "name": "robust",
+      "time": "16.37"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "life",
+      "time": "17.45"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "support",
+      "time": "17.78"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "system",
+      "time": "18.20"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.940",
+      "name": "that's",
+      "time": "19.14"
+    },
+    {
+      "duration": "0.11",
+      "confidence": "0.840",
+      "name": "going",
+      "time": "19.36"
+    },
+    {
+      "duration": "0.11",
+      "confidence": "0.840",
+      "name": "to",
+      "time": "19.47"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "keep",
+      "time": "19.58"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "19.85"
+    },
+    {
+      "duration": "0.75",
+      "confidence": "1.000",
+      "name": "alive",
+      "time": "19.94"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "20.75"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "this",
+      "time": "21.05"
+    },
+    {
+      "duration": "0.08",
+      "confidence": "0.870",
+      "name": "you",
+      "time": "21.52"
+    },
+    {
+      "duration": "0.25",
+      "confidence": "0.870",
+      "name": "know",
+      "time": "21.61"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "long",
+      "time": "21.98"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "period",
+      "time": "22.40"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "22.73"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "time",
+      "time": "22.82"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.980",
+      "name": ".",
+      "time": "23.27"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "I",
+      "time": "23.66"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "mean",
+      "time": "23.78"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "23.90"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "go",
+      "time": "24.02"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "24.29"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "24.44"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "space",
+      "time": "24.56"
+    },
+    {
+      "duration": "0.44",
+      "confidence": "1.000",
+      "name": "station",
+      "time": "24.86"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "that's",
+      "time": "25.34"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "been",
+      "time": "25.52"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "up",
+      "time": "25.64"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "there",
+      "time": "25.79"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "since",
+      "time": "25.97"
+    },
+    {
+      "duration": "0.75",
+      "confidence": "0.990",
+      "name": "2000",
+      "time": "26.24"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "26.99"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.990",
+      "name": "it's",
+      "time": "27.08"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "been",
+      "time": "27.23"
+    },
+    {
+      "duration": "0.60",
+      "confidence": "1.000",
+      "name": "working",
+      "time": "27.38"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "but",
+      "time": "28.28"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "28.52"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "have",
+      "time": "28.88"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "0.990",
+      "name": "a",
+      "time": "29.15"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.960",
+      "name": "you",
+      "time": "29.75"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.960",
+      "name": "know",
+      "time": "29.91"
+    },
+    {
+      "duration": "0.29",
+      "confidence": "0.350",
+      "name": "Aiden",
+      "time": "30.23"
+    },
+    {
+      "duration": "0.31",
+      "confidence": "0.540",
+      "name": "will",
+      "time": "30.64"
+    },
+    {
+      "duration": "0.20",
+      "confidence": "0.530",
+      "name": "like",
+      "time": "31.10"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "31.31"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "day",
+      "time": "31.37"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "31.58"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "31.70"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "half",
+      "time": "31.73"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "trip",
+      "time": "32.12"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "32.54"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "get",
+      "time": "32.69"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "something",
+      "time": "32.93"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "33.29"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "33.44"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "space",
+      "time": "33.53"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "station",
+      "time": "33.83"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "0.620",
+      "name": ".",
+      "time": "34.28"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "If",
+      "time": "34.52"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "something",
+      "time": "34.64"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "fails",
+      "time": "35.06"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "35.54"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "need",
+      "time": "35.63"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.910",
+      "name": "a",
+      "time": "35.81"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "spare",
+      "time": "35.84"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "part",
+      "time": "36.11"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "0.860",
+      "name": ".",
+      "time": "36.55"
+    },
+    {
+      "duration": "0.40",
+      "confidence": "0.540",
+      "name": "MORRIS",
+      "time": "37.01"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.470",
+      "name": "It's",
+      "time": "37.41"
+    },
+    {
+      "duration": "0.17",
+      "confidence": "0.870",
+      "name": "gonna",
+      "time": "37.53"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "take",
+      "time": "37.70"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "six",
+      "time": "37.91"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "38.15"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "eight",
+      "time": "38.24"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "months",
+      "time": "38.39"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "38.75"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "get",
+      "time": "38.87"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "something",
+      "time": "38.99"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "there",
+      "time": "39.26"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.880",
+      "name": ".",
+      "time": "39.50"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "So",
+      "time": "39.53"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "trying",
+      "time": "40.34"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "40.70"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "build",
+      "time": "40.79"
+    },
+    {
+      "duration": "0.78",
+      "confidence": "1.000",
+      "name": "systems",
+      "time": "41.09"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "41.87"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "are",
+      "time": "41.99"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.980",
+      "name": "you",
+      "time": "42.29"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "0.980",
+      "name": "know",
+      "time": "42.38"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "super",
+      "time": "42.56"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "redundant",
+      "time": "43.01"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "but",
+      "time": "44.00"
+    },
+    {
+      "duration": "0.66",
+      "confidence": "1.000",
+      "name": "also",
+      "time": "44.27"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "have",
+      "time": "44.93"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "ways",
+      "time": "45.23"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "45.50"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "fix",
+      "time": "45.59"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "things",
+      "time": "45.80"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "like",
+      "time": "46.16"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "with",
+      "time": "46.34"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "0.760",
+      "name": "3-D",
+      "time": "46.97"
+    },
+    {
+      "duration": "0.46",
+      "confidence": "1.000",
+      "name": "printing",
+      "time": "47.35"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "0.890",
+      "name": ".",
+      "time": "47.81"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.990",
+      "name": "I",
+      "time": "48.05"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.990",
+      "name": "mean",
+      "time": "48.08"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "that's",
+      "time": "48.20"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "another",
+      "time": "48.41"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "thing",
+      "time": "49.04"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "49.25"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "49.37"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "have",
+      "time": "49.46"
+    },
+    {
+      "duration": "0.13",
+      "confidence": "0.930",
+      "name": "on",
+      "time": "50.13"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "50.30"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "space",
+      "time": "50.36"
+    },
+    {
+      "duration": "0.54",
+      "confidence": "1.000",
+      "name": "station",
+      "time": "50.60"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "but",
+      "time": "51.41"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "51.56"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "haven't",
+      "time": "51.65"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "had",
+      "time": "51.98"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "52.13"
+    },
+    {
+      "duration": "0.66",
+      "confidence": "0.960",
+      "name": "utilize",
+      "time": "52.25"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "it",
+      "time": "52.91"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "53.00"
+    },
+    {
+      "duration": "0.81",
+      "confidence": "1.000",
+      "name": "making",
+      "time": "53.27"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "things",
+      "time": "54.41"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "54.89"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "are",
+      "time": "54.98"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "critical",
+      "time": "55.04"
+    },
+    {
+      "duration": "0.08",
+      "confidence": "0.860",
+      "name": "that",
+      "time": "55.49"
+    },
+    {
+      "duration": "0.07",
+      "confidence": "0.880",
+      "name": "are",
+      "time": "55.57"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "in",
+      "time": "55.64"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "situ",
+      "time": "55.79"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "right",
+      "time": "56.42"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "there",
+      "time": "56.63"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.980",
+      "name": ".",
+      "time": "56.81"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "So",
+      "time": "56.87"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "I",
+      "time": "57.05"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "think",
+      "time": "57.11"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "0.920",
+      "name": "that's",
+      "time": "57.32"
+    },
+    {
+      "duration": "0.25",
+      "confidence": "1.000",
+      "name": "that's",
+      "time": "57.96"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "one",
+      "time": "58.25"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "58.52"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "58.58"
+    },
+    {
+      "duration": "0.41",
+      "confidence": "1.000",
+      "name": "things",
+      "time": "58.67"
+    },
+    {
+      "duration": "0.07",
+      "confidence": "0.450",
+      "name": "a",
+      "time": "59.08"
+    },
+    {
+      "duration": "0.66",
+      "confidence": "1.000",
+      "name": "habitat",
+      "time": "59.15"
+    },
+    {
+      "duration": "0.43",
+      "confidence": "0.950",
+      "name": "that's",
+      "time": "59.84"
+    },
+    {
+      "duration": "0.41",
+      "confidence": "0.830",
+      "name": "that's",
+      "time": "60.28"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.890",
+      "name": "you",
+      "time": "60.96"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.890",
+      "name": "know",
+      "time": "61.07"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "0.610",
+      "name": "bullet",
+      "time": "61.25"
+    },
+    {
+      "duration": "0.34",
+      "confidence": "0.610",
+      "name": "proof",
+      "time": "61.73"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "63.17"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "aspects",
+      "time": "63.47"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "64.25"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "64.34"
+    },
+    {
+      "duration": "0.60",
+      "confidence": "1.000",
+      "name": "eating",
+      "time": "64.73"
+    },
+    {
+      "duration": "0.49",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "65.63"
+    },
+    {
+      "duration": "0.20",
+      "confidence": "0.340",
+      "name": ".",
+      "time": "66.13"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "Not",
+      "time": "66.44"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "only",
+      "time": "66.68"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.670",
+      "name": "no",
+      "time": "67.74"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "0.880",
+      "name": "taste",
+      "time": "69.14"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "good",
+      "time": "69.53"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "but",
+      "time": "70.16"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.960",
+      "name": "it's",
+      "time": "70.40"
+    },
+    {
+      "duration": "0.54",
+      "confidence": "1.000",
+      "name": "also",
+      "time": "70.55"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "has",
+      "time": "71.09"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "0.830",
+      "name": "a",
+      "time": "71.39"
+    },
+    {
+      "duration": "0.54",
+      "confidence": "1.000",
+      "name": "nutritional",
+      "time": "71.42"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "value",
+      "time": "71.96"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "72.44"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "you're",
+      "time": "72.68"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.810",
+      "name": "going",
+      "time": "72.83"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "0.810",
+      "name": "to",
+      "time": "72.95"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "get",
+      "time": "73.52"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "all",
+      "time": "73.88"
+    },
+    {
+      "duration": "0.29",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "74.23"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "nutrients",
+      "time": "74.78"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "75.20"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "75.35"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "need",
+      "time": "75.47"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "75.74"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "function",
+      "time": "76.13"
+    },
+    {
+      "duration": "0.08",
+      "confidence": "0.830",
+      "name": "and",
+      "time": "76.55"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "live",
+      "time": "76.63"
+    },
+    {
+      "duration": "0.51",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "76.91"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "this",
+      "time": "77.72"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "extended",
+      "time": "77.90"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "period",
+      "time": "78.32"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "78.59"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "time",
+      "time": "78.65"
+    },
+    {
+      "duration": "1.09",
+      "confidence": "0.830",
+      "name": ".",
+      "time": "79.07"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.990",
+      "name": "You",
+      "time": "80.39"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "80.54"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "80.75"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "Martian",
+      "time": "80.87"
+    },
+    {
+      "duration": "0.51",
+      "confidence": "1.000",
+      "name": "environment",
+      "time": "81.29"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "is",
+      "time": "81.80"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "very",
+      "time": "82.25"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "harsh",
+      "time": "82.64"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "83.15"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "83.24"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "with",
+      "time": "83.39"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.880",
+      "name": "the",
+      "time": "83.54"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.990",
+      "name": "thin",
+      "time": "83.63"
+    },
+    {
+      "duration": "0.81",
+      "confidence": "1.000",
+      "name": "atmosphere",
+      "time": "83.84"
+    },
+    {
+      "duration": "0.22",
+      "confidence": "0.720",
+      "name": "three",
+      "time": "84.89"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "0.590",
+      "name": "eighths",
+      "time": "85.19"
+    },
+    {
+      "duration": "0.57",
+      "confidence": "0.850",
+      "name": "G",
+      "time": "85.52"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.960",
+      "name": "you",
+      "time": "87.22"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "0.960",
+      "name": "know",
+      "time": "87.44"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "solar",
+      "time": "87.77"
+    },
+    {
+      "duration": "0.72",
+      "confidence": "1.000",
+      "name": "radiation",
+      "time": "88.10"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "all",
+      "time": "88.88"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "these",
+      "time": "89.06"
+    },
+    {
+      "duration": "0.29",
+      "confidence": "1.000",
+      "name": "things",
+      "time": "89.30"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "building",
+      "time": "89.60"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "suits",
+      "time": "89.90"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.880",
+      "name": "that",
+      "time": "90.35"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "can",
+      "time": "90.44"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "handle",
+      "time": "90.62"
+    },
+    {
+      "duration": "0.23",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "90.98"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "when",
+      "time": "91.22"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "you're",
+      "time": "91.40"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "0.990",
+      "name": "doing",
+      "time": "92.00"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "these",
+      "time": "92.24"
+    },
+    {
+      "duration": "0.75",
+      "confidence": "1.000",
+      "name": "excursions",
+      "time": "92.42"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "93.17"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "going",
+      "time": "93.26"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "out",
+      "time": "93.44"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "93.53"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "0.990",
+      "name": "cleaning",
+      "time": "93.62"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "93.92"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "solar",
+      "time": "93.98"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "panels",
+      "time": "94.28"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "94.91"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "doing",
+      "time": "95.42"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "these",
+      "time": "95.63"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "things",
+      "time": "95.78"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "having",
+      "time": "96.02"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "robust",
+      "time": "96.32"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "systems",
+      "time": "96.68"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.990",
+      "name": "that",
+      "time": "97.13"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "will",
+      "time": "97.22"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "keep",
+      "time": "97.34"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "97.61"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "alive",
+      "time": "97.76"
+    },
+    {
+      "duration": "0.14",
+      "confidence": "0.420",
+      "name": "and",
+      "time": "98.36"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "0.970",
+      "name": "then",
+      "time": "98.68"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "just",
+      "time": "98.87"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "99.26"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "99.35"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "water",
+      "time": "99.53"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "100.28"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "101.57"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "0.750",
+      "name": ".",
+      "time": "102.05"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "You",
+      "time": "102.41"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "102.50"
+    },
+    {
+      "duration": "0.03",
+      "confidence": "1.000",
+      "name": "I",
+      "time": "102.59"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "think",
+      "time": "102.62"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.930",
+      "name": "I",
+      "time": "102.83"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "heard",
+      "time": "102.92"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "it's",
+      "time": "103.49"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "going",
+      "time": "103.58"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "103.70"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "take",
+      "time": "103.76"
+    },
+    {
+      "duration": "1.26",
+      "confidence": "0.790",
+      "name": "24000",
+      "time": "104.12"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "pounds",
+      "time": "105.53"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "106.16"
+    },
+    {
+      "duration": "0.60",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "106.25"
+    },
+    {
+      "duration": "0",
+      "confidence": "1.000",
+      "name": ".",
+      "time": "106.85"
+    },
+    {
+      "duration": "0.69",
+      "confidence": "1.000",
+      "name": "For",
+      "time": "107.18"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "I",
+      "time": "107.93"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "think",
+      "time": "107.99"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "108.17"
+    },
+    {
+      "duration": "0.51",
+      "confidence": "1.000",
+      "name": "colony",
+      "time": "108.23"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "108.74"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "0.900",
+      "name": "four",
+      "time": "109.16"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "0.990",
+      "name": "or",
+      "time": "109.64"
+    },
+    {
+      "duration": "0.66",
+      "confidence": "0.900",
+      "name": "five",
+      "time": "109.70"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "110.66"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "live",
+      "time": "110.81"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.770",
+      "name": "up",
+      "time": "110.99"
+    },
+    {
+      "duration": "0.16",
+      "confidence": "1.000",
+      "name": "there",
+      "time": "111.08"
+    },
+    {
+      "duration": "0.05",
+      "confidence": "0.610",
+      "name": ".",
+      "time": "111.24"
+    },
+    {
+      "duration": "0.35",
+      "confidence": "0.920",
+      "name": "So",
+      "time": "111.29"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.980",
+      "name": "do",
+      "time": "111.86"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "111.98"
+    },
+    {
+      "duration": "0.74",
+      "confidence": "0.550",
+      "name": "preposition",
+      "time": "112.23"
+    },
+    {
+      "duration": "0.13",
+      "confidence": "0.810",
+      "name": "do",
+      "time": "112.99"
+    },
+    {
+      "duration": "0.14",
+      "confidence": "0.790",
+      "name": "you",
+      "time": "113.13"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "fly",
+      "time": "113.27"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "those",
+      "time": "113.66"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.990",
+      "name": "in",
+      "time": "114.02"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "0.910",
+      "name": "pre",
+      "time": "114.14"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "0.990",
+      "name": "position",
+      "time": "114.35"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "114.80"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "0.900",
+      "name": "there",
+      "time": "115.01"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.880",
+      "name": "and",
+      "time": "115.43"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "hope",
+      "time": "115.55"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "115.85"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "116.42"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "dust",
+      "time": "116.54"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "storm",
+      "time": "116.84"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "or",
+      "time": "117.20"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "something",
+      "time": "117.29"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "doesn't",
+      "time": "117.62"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "wipe",
+      "time": "117.89"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "it",
+      "time": "118.19"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "out",
+      "time": "118.28"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "118.55"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "0.970",
+      "name": "know",
+      "time": "118.64"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "118.82"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.990",
+      "name": "it's",
+      "time": "118.97"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "still",
+      "time": "119.06"
+    },
+    {
+      "duration": "0.51",
+      "confidence": "1.000",
+      "name": "there",
+      "time": "119.33"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "120.17"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "then",
+      "time": "120.44"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "0.980",
+      "name": "a",
+      "time": "120.59"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "shelf",
+      "time": "120.65"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "life",
+      "time": "120.95"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "0.990",
+      "name": "of",
+      "time": "121.16"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "0.920",
+      "name": "five",
+      "time": "121.25"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "years",
+      "time": "121.52"
+    },
+    {
+      "duration": "0",
+      "confidence": "1.000",
+      "name": ".",
+      "time": "121.97"
+    },
+    {
+      "duration": "0.61",
+      "confidence": "0.930",
+      "name": "Whereas",
+      "time": "122.40"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "123.05"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "shelf",
+      "time": "123.17"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "life",
+      "time": "123.47"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.970",
+      "name": "for",
+      "time": "123.74"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "123.86"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "123.95"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "on",
+      "time": "124.19"
+    },
+    {
+      "duration": "0.06",
+      "confidence": "1.000",
+      "name": "the",
+      "time": "124.25"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "space",
+      "time": "124.31"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "station",
+      "time": "124.52"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "is",
+      "time": "124.82"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "0.980",
+      "name": "18",
+      "time": "125.00"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "months",
+      "time": "125.33"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "so",
+      "time": "126.20"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "a",
+      "time": "126.68"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "five",
+      "time": "126.77"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "year",
+      "time": "127.13"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "shelf",
+      "time": "127.28"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "shelf",
+      "time": "127.70"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "life",
+      "time": "128.00"
+    },
+    {
+      "duration": "0.24",
+      "confidence": "0.980",
+      "name": "and",
+      "time": "128.69"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "every",
+      "time": "128.93"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "time",
+      "time": "129.14"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "item",
+      "time": "130.34"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "of",
+      "time": "130.76"
+    },
+    {
+      "duration": "0.63",
+      "confidence": "1.000",
+      "name": "food",
+      "time": "130.85"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "you",
+      "time": "131.60"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "know",
+      "time": "131.69"
+    },
+    {
+      "duration": "0.51",
+      "confidence": "0.990",
+      "name": "sits",
+      "time": "131.90"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "0.980",
+      "name": "there",
+      "time": "132.41"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "for",
+      "time": "133.13"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "another",
+      "time": "133.28"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "month",
+      "time": "133.49"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "another",
+      "time": "133.82"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "month",
+      "time": "134.09"
+    },
+    {
+      "duration": "0.23",
+      "confidence": "0.960",
+      "name": "another",
+      "time": "134.30"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "1.000",
+      "name": "month",
+      "time": "134.54"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "0.990",
+      "name": "it",
+      "time": "135.29"
+    },
+    {
+      "duration": "0.32",
+      "confidence": "0.900",
+      "name": "loses",
+      "time": "135.42"
+    },
+    {
+      "duration": "0.42",
+      "confidence": "1.000",
+      "name": "nutritional",
+      "time": "135.74"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "value",
+      "time": "136.16"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "0.990",
+      "name": "it",
+      "time": "136.64"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "loses",
+      "time": "136.79"
+    },
+    {
+      "duration": "0.48",
+      "confidence": "0.970",
+      "name": "flavor",
+      "time": "137.12"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "it",
+      "time": "137.66"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "loses",
+      "time": "137.75"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "texture",
+      "time": "138.05"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "so",
+      "time": "138.77"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "making",
+      "time": "139.16"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "sure",
+      "time": "139.46"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "139.76"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "we",
+      "time": "139.91"
+    },
+    {
+      "duration": "0.33",
+      "confidence": "1.000",
+      "name": "have",
+      "time": "140.06"
+    },
+    {
+      "duration": "0.36",
+      "confidence": "1.000",
+      "name": "something",
+      "time": "140.39"
+    },
+    {
+      "duration": "0.12",
+      "confidence": "1.000",
+      "name": "that",
+      "time": "140.75"
+    },
+    {
+      "duration": "0.30",
+      "confidence": "1.000",
+      "name": "people",
+      "time": "140.87"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "1.000",
+      "name": "don't",
+      "time": "141.17"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "want",
+      "time": "141.35"
+    },
+    {
+      "duration": "0.09",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "141.56"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "eat",
+      "time": "141.65"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "and",
+      "time": "142.10"
+    },
+    {
+      "duration": "0.18",
+      "confidence": "0.560",
+      "name": "we'll",
+      "time": "142.31"
+    },
+    {
+      "duration": "0.39",
+      "confidence": "1.000",
+      "name": "eat",
+      "time": "142.49"
+    },
+    {
+      "duration": "0.27",
+      "confidence": "1.000",
+      "name": "to",
+      "time": "143.24"
+    },
+    {
+      "duration": "0.21",
+      "confidence": "1.000",
+      "name": "stay",
+      "time": "143.51"
+    },
+    {
+      "duration": "0.45",
+      "confidence": "1.000",
+      "name": "healthy",
+      "time": "143.72"
+    },
+    {
+      "duration": "0.15",
+      "confidence": "1.000",
+      "name": "on",
+      "time": "144.41"
+    },
+    {
+      "duration": "0.28",
+      "confidence": "1.000",
+      "name": "this",
+      "time": "144.56"
+    }
+  ],
+  "format": "1.0"
+}
