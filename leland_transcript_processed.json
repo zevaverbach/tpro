@@ -1,0 +1,3952 @@
+[
+    {
+        "start": 5.98,
+        "end": 6.11,
+        "confidence": 0.67,
+        "word": "For",
+        "always_capitalized": false,
+        "index": 0,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 6.14,
+        "end": 6.59,
+        "confidence": 1.0,
+        "word": "humans",
+        "always_capitalized": false,
+        "index": 1,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 6.59,
+        "end": 6.68,
+        "confidence": 0.99,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 2,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 6.68,
+        "end": 6.89,
+        "confidence": 1.0,
+        "word": "live",
+        "always_capitalized": false,
+        "index": 3,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 6.89,
+        "end": 6.9799999999999995,
+        "confidence": 1.0,
+        "word": "on",
+        "always_capitalized": false,
+        "index": 4,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 6.98,
+        "end": 7.73,
+        "confidence": 1.0,
+        "word": "Mars",
+        "always_capitalized": true,
+        "index": 5,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 7.75,
+        "end": 8.13,
+        "confidence": 0.58,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 6,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 8.18,
+        "end": 8.45,
+        "confidence": 1.0,
+        "word": "not",
+        "always_capitalized": false,
+        "index": 7,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 8.45,
+        "end": 8.66,
+        "confidence": 1.0,
+        "word": "just",
+        "always_capitalized": false,
+        "index": 8,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 8.66,
+        "end": 8.870000000000001,
+        "confidence": 1.0,
+        "word": "make",
+        "always_capitalized": false,
+        "index": 9,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 8.87,
+        "end": 8.93,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 10,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 8.93,
+        "end": 9.049999999999999,
+        "confidence": 1.0,
+        "word": "lot",
+        "always_capitalized": false,
+        "index": 11,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 9.05,
+        "end": 9.110000000000001,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 12,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 9.11,
+        "end": 9.979999999999999,
+        "confidence": 1.0,
+        "word": "potatoes",
+        "always_capitalized": false,
+        "index": 13,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 10.07,
+        "end": 10.4,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 14,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 10.7,
+        "end": 10.969999999999999,
+        "confidence": 1.0,
+        "word": "live",
+        "always_capitalized": false,
+        "index": 15,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 10.97,
+        "end": 11.120000000000001,
+        "confidence": 1.0,
+        "word": "off",
+        "always_capitalized": false,
+        "index": 16,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 11.12,
+        "end": 11.18,
+        "confidence": 0.96,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 17,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 11.18,
+        "end": 11.629999999999999,
+        "confidence": 1.0,
+        "word": "potatoes",
+        "always_capitalized": false,
+        "index": 18,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 11.63,
+        "end": 11.75,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 19,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 11.75,
+        "end": 11.81,
+        "confidence": 0.9,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 20,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 11.81,
+        "end": 12.18,
+        "confidence": 0.9,
+        "word": "while",
+        "always_capitalized": false,
+        "index": 21,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 12.5,
+        "end": 12.87,
+        "confidence": 0.39,
+        "word": "is",
+        "always_capitalized": false,
+        "index": 22,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 12.98,
+        "end": 13.25,
+        "confidence": 1.0,
+        "word": "just",
+        "always_capitalized": false,
+        "index": 23,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 13.25,
+        "end": 13.37,
+        "confidence": 0.94,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 24,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 13.37,
+        "end": 14.059999999999999,
+        "confidence": 1.0,
+        "word": "habitat",
+        "always_capitalized": false,
+        "index": 25,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 14.12,
+        "end": 14.27,
+        "confidence": 0.98,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 26,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 14.27,
+        "end": 14.9,
+        "confidence": 0.97,
+        "word": "systems",
+        "always_capitalized": false,
+        "index": 27,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 14.9,
+        "end": 15.38,
+        "confidence": 1.0,
+        "word": "itself",
+        "always_capitalized": false,
+        "index": 28,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 15.38,
+        "end": 15.920000000000002,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 29,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 16.25,
+        "end": 16.37,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 30,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 16.37,
+        "end": 17.240000000000002,
+        "confidence": 1.0,
+        "word": "robust",
+        "always_capitalized": false,
+        "index": 31,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 17.45,
+        "end": 17.779999999999998,
+        "confidence": 1.0,
+        "word": "life",
+        "always_capitalized": false,
+        "index": 32,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 17.78,
+        "end": 18.200000000000003,
+        "confidence": 1.0,
+        "word": "support",
+        "always_capitalized": false,
+        "index": 33,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 18.2,
+        "end": 18.83,
+        "confidence": 1.0,
+        "word": "system",
+        "always_capitalized": false,
+        "index": 34,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.14,
+        "end": 19.35,
+        "confidence": 0.94,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 35,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.36,
+        "end": 19.47,
+        "confidence": 0.84,
+        "word": "going",
+        "always_capitalized": false,
+        "index": 36,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.47,
+        "end": 19.58,
+        "confidence": 0.84,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 37,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.58,
+        "end": 19.849999999999998,
+        "confidence": 1.0,
+        "word": "keep",
+        "always_capitalized": false,
+        "index": 38,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.85,
+        "end": 19.94,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 39,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 19.94,
+        "end": 20.69,
+        "confidence": 1.0,
+        "word": "alive",
+        "always_capitalized": false,
+        "index": 40,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 20.75,
+        "end": 21.05,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 41,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 21.05,
+        "end": 21.44,
+        "confidence": 1.0,
+        "word": "this",
+        "always_capitalized": false,
+        "index": 42,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 21.52,
+        "end": 21.599999999999998,
+        "confidence": 0.87,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 43,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 21.61,
+        "end": 21.86,
+        "confidence": 0.87,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 44,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 21.98,
+        "end": 22.400000000000002,
+        "confidence": 1.0,
+        "word": "long",
+        "always_capitalized": false,
+        "index": 45,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 22.4,
+        "end": 22.729999999999997,
+        "confidence": 1.0,
+        "word": "period",
+        "always_capitalized": false,
+        "index": 46,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 22.73,
+        "end": 22.82,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 47,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 22.82,
+        "end": 23.27,
+        "confidence": 1.0,
+        "word": "time",
+        "always_capitalized": false,
+        "index": 48,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 23.66,
+        "end": 23.78,
+        "confidence": 1.0,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 49,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 23.78,
+        "end": 23.900000000000002,
+        "confidence": 1.0,
+        "word": "mean",
+        "always_capitalized": false,
+        "index": 50,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 23.9,
+        "end": 24.02,
+        "confidence": 1.0,
+        "word": "we",
+        "always_capitalized": false,
+        "index": 51,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 24.02,
+        "end": 24.29,
+        "confidence": 1.0,
+        "word": "go",
+        "always_capitalized": false,
+        "index": 52,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 24.29,
+        "end": 24.439999999999998,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 53,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 24.44,
+        "end": 24.560000000000002,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 54,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 24.56,
+        "end": 24.86,
+        "confidence": 1.0,
+        "word": "space",
+        "always_capitalized": false,
+        "index": 55,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 24.86,
+        "end": 25.3,
+        "confidence": 1.0,
+        "word": "station",
+        "always_capitalized": false,
+        "index": 56,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 25.34,
+        "end": 25.52,
+        "confidence": 1.0,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 57,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 25.52,
+        "end": 25.64,
+        "confidence": 1.0,
+        "word": "been",
+        "always_capitalized": false,
+        "index": 58,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 25.64,
+        "end": 25.79,
+        "confidence": 1.0,
+        "word": "up",
+        "always_capitalized": false,
+        "index": 59,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 25.79,
+        "end": 25.97,
+        "confidence": 1.0,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 60,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 25.97,
+        "end": 26.24,
+        "confidence": 1.0,
+        "word": "since",
+        "always_capitalized": false,
+        "index": 61,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 26.24,
+        "end": 26.99,
+        "confidence": 0.99,
+        "word": "2000",
+        "always_capitalized": false,
+        "index": 62,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 26.99,
+        "end": 27.08,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 63,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 27.08,
+        "end": 27.229999999999997,
+        "confidence": 0.99,
+        "word": "it's",
+        "always_capitalized": false,
+        "index": 64,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 27.23,
+        "end": 27.38,
+        "confidence": 1.0,
+        "word": "been",
+        "always_capitalized": false,
+        "index": 65,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 27.38,
+        "end": 27.98,
+        "confidence": 1.0,
+        "word": "working",
+        "always_capitalized": false,
+        "index": 66,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 28.28,
+        "end": 28.52,
+        "confidence": 1.0,
+        "word": "but",
+        "always_capitalized": false,
+        "index": 67,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 28.52,
+        "end": 28.88,
+        "confidence": 1.0,
+        "word": "we",
+        "always_capitalized": false,
+        "index": 68,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 28.88,
+        "end": 29.15,
+        "confidence": 1.0,
+        "word": "have",
+        "always_capitalized": false,
+        "index": 69,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 29.15,
+        "end": 29.45,
+        "confidence": 0.99,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 70,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 29.75,
+        "end": 29.9,
+        "confidence": 0.96,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 71,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 29.91,
+        "end": 30.12,
+        "confidence": 0.96,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 72,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 30.23,
+        "end": 30.52,
+        "confidence": 0.35,
+        "word": "Aiden",
+        "always_capitalized": true,
+        "index": 73,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 30.64,
+        "end": 30.95,
+        "confidence": 0.54,
+        "word": "will",
+        "always_capitalized": false,
+        "index": 74,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.1,
+        "end": 31.3,
+        "confidence": 0.53,
+        "word": "like",
+        "always_capitalized": false,
+        "index": 75,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.31,
+        "end": 31.369999999999997,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 76,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.37,
+        "end": 31.580000000000002,
+        "confidence": 1.0,
+        "word": "day",
+        "always_capitalized": false,
+        "index": 77,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.58,
+        "end": 31.7,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 78,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.7,
+        "end": 31.73,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 79,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 31.73,
+        "end": 32.12,
+        "confidence": 1.0,
+        "word": "half",
+        "always_capitalized": false,
+        "index": 80,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 32.12,
+        "end": 32.54,
+        "confidence": 1.0,
+        "word": "trip",
+        "always_capitalized": false,
+        "index": 81,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 32.54,
+        "end": 32.69,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 82,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 32.69,
+        "end": 32.93,
+        "confidence": 1.0,
+        "word": "get",
+        "always_capitalized": false,
+        "index": 83,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 32.93,
+        "end": 33.29,
+        "confidence": 1.0,
+        "word": "something",
+        "always_capitalized": false,
+        "index": 84,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 33.29,
+        "end": 33.44,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 85,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 33.44,
+        "end": 33.53,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 86,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 33.53,
+        "end": 33.83,
+        "confidence": 1.0,
+        "word": "space",
+        "always_capitalized": false,
+        "index": 87,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 33.83,
+        "end": 34.28,
+        "confidence": 1.0,
+        "word": "station",
+        "always_capitalized": false,
+        "index": 88,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 34.52,
+        "end": 34.64,
+        "confidence": 1.0,
+        "word": "If",
+        "always_capitalized": false,
+        "index": 89,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 34.64,
+        "end": 35.06,
+        "confidence": 1.0,
+        "word": "something",
+        "always_capitalized": false,
+        "index": 90,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 35.06,
+        "end": 35.510000000000005,
+        "confidence": 1.0,
+        "word": "fails",
+        "always_capitalized": false,
+        "index": 91,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 35.54,
+        "end": 35.63,
+        "confidence": 1.0,
+        "word": "we",
+        "always_capitalized": false,
+        "index": 92,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 35.63,
+        "end": 35.81,
+        "confidence": 1.0,
+        "word": "need",
+        "always_capitalized": false,
+        "index": 93,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 35.81,
+        "end": 35.84,
+        "confidence": 0.91,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 94,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 35.84,
+        "end": 36.11000000000001,
+        "confidence": 1.0,
+        "word": "spare",
+        "always_capitalized": false,
+        "index": 95,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 36.11,
+        "end": 36.53,
+        "confidence": 1.0,
+        "word": "part",
+        "always_capitalized": false,
+        "index": 96,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 37.01,
+        "end": 37.41,
+        "confidence": 0.54,
+        "word": "MORRIS",
+        "always_capitalized": false,
+        "index": 97,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 37.41,
+        "end": 37.529999999999994,
+        "confidence": 0.47,
+        "word": "It's",
+        "always_capitalized": false,
+        "index": 98,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 37.53,
+        "end": 37.7,
+        "confidence": 0.87,
+        "word": "gonna",
+        "always_capitalized": false,
+        "index": 99,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 37.7,
+        "end": 37.910000000000004,
+        "confidence": 1.0,
+        "word": "take",
+        "always_capitalized": false,
+        "index": 100,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 37.91,
+        "end": 38.15,
+        "confidence": 1.0,
+        "word": "six",
+        "always_capitalized": false,
+        "index": 101,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.15,
+        "end": 38.24,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 102,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.24,
+        "end": 38.39,
+        "confidence": 1.0,
+        "word": "eight",
+        "always_capitalized": false,
+        "index": 103,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.39,
+        "end": 38.75,
+        "confidence": 1.0,
+        "word": "months",
+        "always_capitalized": false,
+        "index": 104,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.75,
+        "end": 38.87,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 105,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.87,
+        "end": 38.989999999999995,
+        "confidence": 1.0,
+        "word": "get",
+        "always_capitalized": false,
+        "index": 106,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 38.99,
+        "end": 39.260000000000005,
+        "confidence": 1.0,
+        "word": "something",
+        "always_capitalized": false,
+        "index": 107,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 39.26,
+        "end": 39.5,
+        "confidence": 1.0,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 108,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 39.53,
+        "end": 39.95,
+        "confidence": 1.0,
+        "word": "So",
+        "always_capitalized": false,
+        "index": 109,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 40.34,
+        "end": 40.7,
+        "confidence": 1.0,
+        "word": "trying",
+        "always_capitalized": false,
+        "index": 110,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 40.7,
+        "end": 40.790000000000006,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 111,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 40.79,
+        "end": 41.089999999999996,
+        "confidence": 1.0,
+        "word": "build",
+        "always_capitalized": false,
+        "index": 112,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 41.09,
+        "end": 41.870000000000005,
+        "confidence": 1.0,
+        "word": "systems",
+        "always_capitalized": false,
+        "index": 113,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 41.87,
+        "end": 41.989999999999995,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 114,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 41.99,
+        "end": 42.11,
+        "confidence": 1.0,
+        "word": "are",
+        "always_capitalized": false,
+        "index": 115,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 42.29,
+        "end": 42.38,
+        "confidence": 0.98,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 116,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 42.38,
+        "end": 42.56,
+        "confidence": 0.98,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 117,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 42.56,
+        "end": 43.010000000000005,
+        "confidence": 1.0,
+        "word": "super",
+        "always_capitalized": false,
+        "index": 118,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 43.01,
+        "end": 43.64,
+        "confidence": 1.0,
+        "word": "redundant",
+        "always_capitalized": false,
+        "index": 119,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 44.0,
+        "end": 44.27,
+        "confidence": 1.0,
+        "word": "but",
+        "always_capitalized": false,
+        "index": 120,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 44.27,
+        "end": 44.93,
+        "confidence": 1.0,
+        "word": "also",
+        "always_capitalized": false,
+        "index": 121,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 44.93,
+        "end": 45.23,
+        "confidence": 1.0,
+        "word": "have",
+        "always_capitalized": false,
+        "index": 122,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 45.23,
+        "end": 45.5,
+        "confidence": 1.0,
+        "word": "ways",
+        "always_capitalized": false,
+        "index": 123,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 45.5,
+        "end": 45.59,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 124,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 45.59,
+        "end": 45.800000000000004,
+        "confidence": 1.0,
+        "word": "fix",
+        "always_capitalized": false,
+        "index": 125,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 45.8,
+        "end": 46.16,
+        "confidence": 1.0,
+        "word": "things",
+        "always_capitalized": false,
+        "index": 126,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 46.16,
+        "end": 46.339999999999996,
+        "confidence": 1.0,
+        "word": "like",
+        "always_capitalized": false,
+        "index": 127,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 46.34,
+        "end": 46.7,
+        "confidence": 1.0,
+        "word": "with",
+        "always_capitalized": false,
+        "index": 128,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 46.97,
+        "end": 47.33,
+        "confidence": 0.76,
+        "word": "3-D",
+        "always_capitalized": false,
+        "index": 129,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 47.35,
+        "end": 47.81,
+        "confidence": 1.0,
+        "word": "printing",
+        "always_capitalized": false,
+        "index": 130,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 48.05,
+        "end": 48.08,
+        "confidence": 0.99,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 131,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 48.08,
+        "end": 48.199999999999996,
+        "confidence": 0.99,
+        "word": "mean",
+        "always_capitalized": false,
+        "index": 132,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 48.2,
+        "end": 48.410000000000004,
+        "confidence": 1.0,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 133,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 48.41,
+        "end": 48.88999999999999,
+        "confidence": 1.0,
+        "word": "another",
+        "always_capitalized": false,
+        "index": 134,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 49.04,
+        "end": 49.25,
+        "confidence": 1.0,
+        "word": "thing",
+        "always_capitalized": false,
+        "index": 135,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 49.25,
+        "end": 49.37,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 136,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 49.37,
+        "end": 49.46,
+        "confidence": 1.0,
+        "word": "we",
+        "always_capitalized": false,
+        "index": 137,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 49.46,
+        "end": 49.7,
+        "confidence": 1.0,
+        "word": "have",
+        "always_capitalized": false,
+        "index": 138,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 50.13,
+        "end": 50.260000000000005,
+        "confidence": 0.93,
+        "word": "on",
+        "always_capitalized": false,
+        "index": 139,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 50.3,
+        "end": 50.36,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 140,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 50.36,
+        "end": 50.6,
+        "confidence": 1.0,
+        "word": "space",
+        "always_capitalized": false,
+        "index": 141,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 50.6,
+        "end": 51.14,
+        "confidence": 1.0,
+        "word": "station",
+        "always_capitalized": false,
+        "index": 142,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 51.41,
+        "end": 51.559999999999995,
+        "confidence": 1.0,
+        "word": "but",
+        "always_capitalized": false,
+        "index": 143,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 51.56,
+        "end": 51.650000000000006,
+        "confidence": 1.0,
+        "word": "we",
+        "always_capitalized": false,
+        "index": 144,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 51.65,
+        "end": 51.98,
+        "confidence": 1.0,
+        "word": "haven't",
+        "always_capitalized": false,
+        "index": 145,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 51.98,
+        "end": 52.129999999999995,
+        "confidence": 1.0,
+        "word": "had",
+        "always_capitalized": false,
+        "index": 146,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 52.13,
+        "end": 52.25,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 147,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 52.25,
+        "end": 52.91,
+        "confidence": 0.96,
+        "word": "utilize",
+        "always_capitalized": false,
+        "index": 148,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 52.91,
+        "end": 53.0,
+        "confidence": 1.0,
+        "word": "it",
+        "always_capitalized": false,
+        "index": 149,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 53.0,
+        "end": 53.27,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 150,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 53.27,
+        "end": 54.080000000000005,
+        "confidence": 1.0,
+        "word": "making",
+        "always_capitalized": false,
+        "index": 151,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 54.41,
+        "end": 54.88999999999999,
+        "confidence": 1.0,
+        "word": "things",
+        "always_capitalized": false,
+        "index": 152,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 54.89,
+        "end": 54.980000000000004,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 153,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 54.98,
+        "end": 55.04,
+        "confidence": 1.0,
+        "word": "are",
+        "always_capitalized": false,
+        "index": 154,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 55.04,
+        "end": 55.49,
+        "confidence": 1.0,
+        "word": "critical",
+        "always_capitalized": false,
+        "index": 155,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 55.49,
+        "end": 55.57,
+        "confidence": 0.86,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 156,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 55.57,
+        "end": 55.64,
+        "confidence": 0.88,
+        "word": "are",
+        "always_capitalized": false,
+        "index": 157,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 55.64,
+        "end": 55.79,
+        "confidence": 1.0,
+        "word": "in",
+        "always_capitalized": false,
+        "index": 158,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 55.79,
+        "end": 56.269999999999996,
+        "confidence": 1.0,
+        "word": "situ",
+        "always_capitalized": false,
+        "index": 159,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 56.42,
+        "end": 56.63,
+        "confidence": 1.0,
+        "word": "right",
+        "always_capitalized": false,
+        "index": 160,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 56.63,
+        "end": 56.81,
+        "confidence": 1.0,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 161,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 56.87,
+        "end": 57.019999999999996,
+        "confidence": 1.0,
+        "word": "So",
+        "always_capitalized": false,
+        "index": 162,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 57.05,
+        "end": 57.11,
+        "confidence": 1.0,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 163,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 57.11,
+        "end": 57.32,
+        "confidence": 1.0,
+        "word": "think",
+        "always_capitalized": false,
+        "index": 164,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 57.32,
+        "end": 57.65,
+        "confidence": 0.92,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 165,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 57.96,
+        "end": 58.21,
+        "confidence": 1.0,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 166,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 58.25,
+        "end": 58.52,
+        "confidence": 1.0,
+        "word": "one",
+        "always_capitalized": false,
+        "index": 167,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 58.52,
+        "end": 58.580000000000005,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 168,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 58.58,
+        "end": 58.67,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 169,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 58.67,
+        "end": 59.08,
+        "confidence": 1.0,
+        "word": "things",
+        "always_capitalized": false,
+        "index": 170,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 59.08,
+        "end": 59.15,
+        "confidence": 0.45,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 171,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 59.15,
+        "end": 59.809999999999995,
+        "confidence": 1.0,
+        "word": "habitat",
+        "always_capitalized": false,
+        "index": 172,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 59.84,
+        "end": 60.27,
+        "confidence": 0.95,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 173,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 60.28,
+        "end": 60.69,
+        "confidence": 0.83,
+        "word": "that's",
+        "always_capitalized": false,
+        "index": 174,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 60.96,
+        "end": 61.050000000000004,
+        "confidence": 0.89,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 175,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 61.07,
+        "end": 61.22,
+        "confidence": 0.89,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 176,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 61.25,
+        "end": 61.73,
+        "confidence": 0.61,
+        "word": "bullet",
+        "always_capitalized": false,
+        "index": 177,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 61.73,
+        "end": 62.07,
+        "confidence": 0.61,
+        "word": "proof",
+        "always_capitalized": false,
+        "index": 178,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 63.17,
+        "end": 63.47,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 179,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 63.47,
+        "end": 64.1,
+        "confidence": 1.0,
+        "word": "aspects",
+        "always_capitalized": false,
+        "index": 180,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 64.25,
+        "end": 64.34,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 181,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 64.34,
+        "end": 64.67,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 182,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 64.73,
+        "end": 65.33,
+        "confidence": 1.0,
+        "word": "eating",
+        "always_capitalized": false,
+        "index": 183,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 65.63,
+        "end": 66.11999999999999,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 184,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 66.44,
+        "end": 66.67999999999999,
+        "confidence": 1.0,
+        "word": "Not",
+        "always_capitalized": false,
+        "index": 185,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 66.68,
+        "end": 67.13000000000001,
+        "confidence": 1.0,
+        "word": "only",
+        "always_capitalized": false,
+        "index": 186,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 67.74,
+        "end": 67.94999999999999,
+        "confidence": 0.67,
+        "word": "no",
+        "always_capitalized": false,
+        "index": 187,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 69.14,
+        "end": 69.53,
+        "confidence": 0.88,
+        "word": "taste",
+        "always_capitalized": false,
+        "index": 188,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 69.53,
+        "end": 69.92,
+        "confidence": 1.0,
+        "word": "good",
+        "always_capitalized": false,
+        "index": 189,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 70.16,
+        "end": 70.39999999999999,
+        "confidence": 1.0,
+        "word": "but",
+        "always_capitalized": false,
+        "index": 190,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 70.4,
+        "end": 70.55000000000001,
+        "confidence": 0.96,
+        "word": "it's",
+        "always_capitalized": false,
+        "index": 191,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 70.55,
+        "end": 71.09,
+        "confidence": 1.0,
+        "word": "also",
+        "always_capitalized": false,
+        "index": 192,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 71.09,
+        "end": 71.39,
+        "confidence": 1.0,
+        "word": "has",
+        "always_capitalized": false,
+        "index": 193,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 71.39,
+        "end": 71.42,
+        "confidence": 0.83,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 194,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 71.42,
+        "end": 71.96000000000001,
+        "confidence": 1.0,
+        "word": "nutritional",
+        "always_capitalized": false,
+        "index": 195,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 71.96,
+        "end": 72.41,
+        "confidence": 1.0,
+        "word": "value",
+        "always_capitalized": false,
+        "index": 196,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 72.44,
+        "end": 72.67999999999999,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 197,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 72.68,
+        "end": 72.83000000000001,
+        "confidence": 1.0,
+        "word": "you're",
+        "always_capitalized": false,
+        "index": 198,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 72.83,
+        "end": 72.95,
+        "confidence": 0.81,
+        "word": "going",
+        "always_capitalized": false,
+        "index": 199,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 72.95,
+        "end": 73.13000000000001,
+        "confidence": 0.81,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 200,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 73.52,
+        "end": 73.82,
+        "confidence": 1.0,
+        "word": "get",
+        "always_capitalized": false,
+        "index": 201,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 73.88,
+        "end": 74.21,
+        "confidence": 1.0,
+        "word": "all",
+        "always_capitalized": false,
+        "index": 202,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 74.23,
+        "end": 74.52000000000001,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 203,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 74.78,
+        "end": 75.2,
+        "confidence": 1.0,
+        "word": "nutrients",
+        "always_capitalized": false,
+        "index": 204,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 75.2,
+        "end": 75.35000000000001,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 205,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 75.35,
+        "end": 75.47,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 206,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 75.47,
+        "end": 75.74,
+        "confidence": 1.0,
+        "word": "need",
+        "always_capitalized": false,
+        "index": 207,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 75.74,
+        "end": 76.13,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 208,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 76.13,
+        "end": 76.55,
+        "confidence": 1.0,
+        "word": "function",
+        "always_capitalized": false,
+        "index": 209,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 76.55,
+        "end": 76.63,
+        "confidence": 0.83,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 210,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 76.63,
+        "end": 76.89999999999999,
+        "confidence": 1.0,
+        "word": "live",
+        "always_capitalized": false,
+        "index": 211,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 76.91,
+        "end": 77.42,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 212,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 77.72,
+        "end": 77.9,
+        "confidence": 1.0,
+        "word": "this",
+        "always_capitalized": false,
+        "index": 213,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 77.9,
+        "end": 78.32000000000001,
+        "confidence": 1.0,
+        "word": "extended",
+        "always_capitalized": false,
+        "index": 214,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 78.32,
+        "end": 78.58999999999999,
+        "confidence": 1.0,
+        "word": "period",
+        "always_capitalized": false,
+        "index": 215,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 78.59,
+        "end": 78.65,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 216,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 78.65,
+        "end": 79.07000000000001,
+        "confidence": 1.0,
+        "word": "time",
+        "always_capitalized": false,
+        "index": 217,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 80.39,
+        "end": 80.54,
+        "confidence": 0.99,
+        "word": "You",
+        "always_capitalized": false,
+        "index": 218,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 80.54,
+        "end": 80.75,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 219,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 80.75,
+        "end": 80.87,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 220,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 80.87,
+        "end": 81.29,
+        "confidence": 1.0,
+        "word": "Martian",
+        "always_capitalized": false,
+        "index": 221,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 81.29,
+        "end": 81.80000000000001,
+        "confidence": 1.0,
+        "word": "environment",
+        "always_capitalized": false,
+        "index": 222,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 81.8,
+        "end": 82.16,
+        "confidence": 1.0,
+        "word": "is",
+        "always_capitalized": false,
+        "index": 223,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 82.25,
+        "end": 82.64,
+        "confidence": 1.0,
+        "word": "very",
+        "always_capitalized": false,
+        "index": 224,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 82.64,
+        "end": 83.12,
+        "confidence": 1.0,
+        "word": "harsh",
+        "always_capitalized": false,
+        "index": 225,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.15,
+        "end": 83.24000000000001,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 226,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.24,
+        "end": 83.39,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 227,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.39,
+        "end": 83.54,
+        "confidence": 1.0,
+        "word": "with",
+        "always_capitalized": false,
+        "index": 228,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.54,
+        "end": 83.63000000000001,
+        "confidence": 0.88,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 229,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.63,
+        "end": 83.83999999999999,
+        "confidence": 0.99,
+        "word": "thin",
+        "always_capitalized": false,
+        "index": 230,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 83.84,
+        "end": 84.65,
+        "confidence": 1.0,
+        "word": "atmosphere",
+        "always_capitalized": false,
+        "index": 231,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 84.89,
+        "end": 85.11,
+        "confidence": 0.72,
+        "word": "three",
+        "always_capitalized": false,
+        "index": 232,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 85.19,
+        "end": 85.46,
+        "confidence": 0.59,
+        "word": "eighths",
+        "always_capitalized": false,
+        "index": 233,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 85.52,
+        "end": 86.08999999999999,
+        "confidence": 0.85,
+        "word": "G",
+        "always_capitalized": false,
+        "index": 234,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 87.22,
+        "end": 87.42999999999999,
+        "confidence": 0.96,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 235,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 87.44,
+        "end": 87.74,
+        "confidence": 0.96,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 236,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 87.77,
+        "end": 88.1,
+        "confidence": 1.0,
+        "word": "solar",
+        "always_capitalized": false,
+        "index": 237,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 88.1,
+        "end": 88.82,
+        "confidence": 1.0,
+        "word": "radiation",
+        "always_capitalized": false,
+        "index": 238,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 88.88,
+        "end": 89.06,
+        "confidence": 1.0,
+        "word": "all",
+        "always_capitalized": false,
+        "index": 239,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 89.06,
+        "end": 89.3,
+        "confidence": 1.0,
+        "word": "these",
+        "always_capitalized": false,
+        "index": 240,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 89.3,
+        "end": 89.59,
+        "confidence": 1.0,
+        "word": "things",
+        "always_capitalized": false,
+        "index": 241,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 89.6,
+        "end": 89.89999999999999,
+        "confidence": 1.0,
+        "word": "building",
+        "always_capitalized": false,
+        "index": 242,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 89.9,
+        "end": 90.35000000000001,
+        "confidence": 1.0,
+        "word": "suits",
+        "always_capitalized": false,
+        "index": 243,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 90.35,
+        "end": 90.44,
+        "confidence": 0.88,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 244,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 90.44,
+        "end": 90.62,
+        "confidence": 1.0,
+        "word": "can",
+        "always_capitalized": false,
+        "index": 245,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 90.62,
+        "end": 90.98,
+        "confidence": 1.0,
+        "word": "handle",
+        "always_capitalized": false,
+        "index": 246,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 90.98,
+        "end": 91.21000000000001,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 247,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 91.22,
+        "end": 91.4,
+        "confidence": 1.0,
+        "word": "when",
+        "always_capitalized": false,
+        "index": 248,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 91.4,
+        "end": 91.7,
+        "confidence": 1.0,
+        "word": "you're",
+        "always_capitalized": false,
+        "index": 249,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 92.0,
+        "end": 92.24,
+        "confidence": 0.99,
+        "word": "doing",
+        "always_capitalized": false,
+        "index": 250,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 92.24,
+        "end": 92.42,
+        "confidence": 1.0,
+        "word": "these",
+        "always_capitalized": false,
+        "index": 251,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 92.42,
+        "end": 93.17,
+        "confidence": 1.0,
+        "word": "excursions",
+        "always_capitalized": false,
+        "index": 252,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.17,
+        "end": 93.26,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 253,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.26,
+        "end": 93.44000000000001,
+        "confidence": 1.0,
+        "word": "going",
+        "always_capitalized": false,
+        "index": 254,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.44,
+        "end": 93.53,
+        "confidence": 1.0,
+        "word": "out",
+        "always_capitalized": false,
+        "index": 255,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.53,
+        "end": 93.62,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 256,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.62,
+        "end": 93.92,
+        "confidence": 0.99,
+        "word": "cleaning",
+        "always_capitalized": false,
+        "index": 257,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.92,
+        "end": 93.98,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 258,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 93.98,
+        "end": 94.28,
+        "confidence": 1.0,
+        "word": "solar",
+        "always_capitalized": false,
+        "index": 259,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 94.28,
+        "end": 94.91,
+        "confidence": 1.0,
+        "word": "panels",
+        "always_capitalized": false,
+        "index": 260,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 94.91,
+        "end": 95.09,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 261,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 95.42,
+        "end": 95.63,
+        "confidence": 1.0,
+        "word": "doing",
+        "always_capitalized": false,
+        "index": 262,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 95.63,
+        "end": 95.78,
+        "confidence": 1.0,
+        "word": "these",
+        "always_capitalized": false,
+        "index": 263,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 95.78,
+        "end": 96.02,
+        "confidence": 1.0,
+        "word": "things",
+        "always_capitalized": false,
+        "index": 264,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 96.02,
+        "end": 96.32,
+        "confidence": 1.0,
+        "word": "having",
+        "always_capitalized": false,
+        "index": 265,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 96.32,
+        "end": 96.67999999999999,
+        "confidence": 1.0,
+        "word": "robust",
+        "always_capitalized": false,
+        "index": 266,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 96.68,
+        "end": 97.13000000000001,
+        "confidence": 1.0,
+        "word": "systems",
+        "always_capitalized": false,
+        "index": 267,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 97.13,
+        "end": 97.22,
+        "confidence": 0.99,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 268,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 97.22,
+        "end": 97.34,
+        "confidence": 1.0,
+        "word": "will",
+        "always_capitalized": false,
+        "index": 269,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 97.34,
+        "end": 97.61,
+        "confidence": 1.0,
+        "word": "keep",
+        "always_capitalized": false,
+        "index": 270,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 97.61,
+        "end": 97.76,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 271,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 97.76,
+        "end": 98.18,
+        "confidence": 1.0,
+        "word": "alive",
+        "always_capitalized": false,
+        "index": 272,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 98.36,
+        "end": 98.5,
+        "confidence": 0.42,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 273,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 98.68,
+        "end": 98.86000000000001,
+        "confidence": 0.97,
+        "word": "then",
+        "always_capitalized": false,
+        "index": 274,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 98.87,
+        "end": 99.23,
+        "confidence": 1.0,
+        "word": "just",
+        "always_capitalized": false,
+        "index": 275,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 99.26,
+        "end": 99.35000000000001,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 276,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 99.35,
+        "end": 99.53,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 277,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 99.53,
+        "end": 100.16,
+        "confidence": 1.0,
+        "word": "water",
+        "always_capitalized": false,
+        "index": 278,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 100.28,
+        "end": 100.61,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 279,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 101.57,
+        "end": 102.05,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 280,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 102.41,
+        "end": 102.5,
+        "confidence": 1.0,
+        "word": "You",
+        "always_capitalized": false,
+        "index": 281,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 102.5,
+        "end": 102.59,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 282,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 102.59,
+        "end": 102.62,
+        "confidence": 1.0,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 283,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 102.62,
+        "end": 102.83,
+        "confidence": 1.0,
+        "word": "think",
+        "always_capitalized": false,
+        "index": 284,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 102.83,
+        "end": 102.92,
+        "confidence": 0.93,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 285,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 102.92,
+        "end": 103.22,
+        "confidence": 1.0,
+        "word": "heard",
+        "always_capitalized": false,
+        "index": 286,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 103.49,
+        "end": 103.58,
+        "confidence": 1.0,
+        "word": "it's",
+        "always_capitalized": false,
+        "index": 287,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 103.58,
+        "end": 103.7,
+        "confidence": 1.0,
+        "word": "going",
+        "always_capitalized": false,
+        "index": 288,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 103.7,
+        "end": 103.76,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 289,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 103.76,
+        "end": 104.03,
+        "confidence": 1.0,
+        "word": "take",
+        "always_capitalized": false,
+        "index": 290,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 104.12,
+        "end": 105.38000000000001,
+        "confidence": 0.79,
+        "word": "24000",
+        "always_capitalized": false,
+        "index": 291,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 105.53,
+        "end": 106.16,
+        "confidence": 1.0,
+        "word": "pounds",
+        "always_capitalized": false,
+        "index": 292,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 106.16,
+        "end": 106.25,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 293,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 106.25,
+        "end": 106.85,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 294,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 107.18,
+        "end": 107.87,
+        "confidence": 1.0,
+        "word": "For",
+        "always_capitalized": false,
+        "index": 295,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 107.93,
+        "end": 107.99000000000001,
+        "confidence": 1.0,
+        "word": "I",
+        "always_capitalized": true,
+        "index": 296,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 107.99,
+        "end": 108.17,
+        "confidence": 1.0,
+        "word": "think",
+        "always_capitalized": false,
+        "index": 297,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 108.17,
+        "end": 108.23,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 298,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 108.23,
+        "end": 108.74000000000001,
+        "confidence": 1.0,
+        "word": "colony",
+        "always_capitalized": false,
+        "index": 299,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 108.74,
+        "end": 109.16,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 300,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 109.16,
+        "end": 109.64,
+        "confidence": 0.9,
+        "word": "four",
+        "always_capitalized": false,
+        "index": 301,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 109.64,
+        "end": 109.7,
+        "confidence": 0.99,
+        "word": "or",
+        "always_capitalized": false,
+        "index": 302,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 109.7,
+        "end": 110.36,
+        "confidence": 0.9,
+        "word": "five",
+        "always_capitalized": false,
+        "index": 303,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 110.66,
+        "end": 110.81,
+        "confidence": 1.0,
+        "word": "to",
+        "always_capitalized": false,
+        "index": 304,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 110.81,
+        "end": 110.99000000000001,
+        "confidence": 1.0,
+        "word": "live",
+        "always_capitalized": false,
+        "index": 305,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 110.99,
+        "end": 111.08,
+        "confidence": 0.77,
+        "word": "up",
+        "always_capitalized": false,
+        "index": 306,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 111.08,
+        "end": 111.24,
+        "confidence": 1.0,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 307,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 111.29,
+        "end": 111.64,
+        "confidence": 0.92,
+        "word": "So",
+        "always_capitalized": false,
+        "index": 308,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 111.86,
+        "end": 111.98,
+        "confidence": 0.98,
+        "word": "do",
+        "always_capitalized": false,
+        "index": 309,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 111.98,
+        "end": 112.07000000000001,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 310,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 112.23,
+        "end": 112.97,
+        "confidence": 0.55,
+        "word": "preposition",
+        "always_capitalized": false,
+        "index": 311,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 112.99,
+        "end": 113.11999999999999,
+        "confidence": 0.81,
+        "word": "do",
+        "always_capitalized": false,
+        "index": 312,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 113.13,
+        "end": 113.27,
+        "confidence": 0.79,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 313,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 113.27,
+        "end": 113.66,
+        "confidence": 1.0,
+        "word": "fly",
+        "always_capitalized": false,
+        "index": 314,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 113.66,
+        "end": 114.02,
+        "confidence": 1.0,
+        "word": "those",
+        "always_capitalized": false,
+        "index": 315,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 114.02,
+        "end": 114.14,
+        "confidence": 0.99,
+        "word": "in",
+        "always_capitalized": false,
+        "index": 316,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 114.14,
+        "end": 114.35,
+        "confidence": 0.91,
+        "word": "pre",
+        "always_capitalized": false,
+        "index": 317,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 114.35,
+        "end": 114.8,
+        "confidence": 0.99,
+        "word": "position",
+        "always_capitalized": false,
+        "index": 318,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 114.8,
+        "end": 115.00999999999999,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 319,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 115.01,
+        "end": 115.43,
+        "confidence": 0.9,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 320,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 115.43,
+        "end": 115.55000000000001,
+        "confidence": 0.88,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 321,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 115.55,
+        "end": 115.85,
+        "confidence": 1.0,
+        "word": "hope",
+        "always_capitalized": false,
+        "index": 322,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 115.85,
+        "end": 116.11999999999999,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 323,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 116.42,
+        "end": 116.54,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 324,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 116.54,
+        "end": 116.84,
+        "confidence": 1.0,
+        "word": "dust",
+        "always_capitalized": false,
+        "index": 325,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 116.84,
+        "end": 117.2,
+        "confidence": 1.0,
+        "word": "storm",
+        "always_capitalized": false,
+        "index": 326,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 117.2,
+        "end": 117.29,
+        "confidence": 1.0,
+        "word": "or",
+        "always_capitalized": false,
+        "index": 327,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 117.29,
+        "end": 117.62,
+        "confidence": 1.0,
+        "word": "something",
+        "always_capitalized": false,
+        "index": 328,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 117.62,
+        "end": 117.89,
+        "confidence": 1.0,
+        "word": "doesn't",
+        "always_capitalized": false,
+        "index": 329,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 117.89,
+        "end": 118.19,
+        "confidence": 1.0,
+        "word": "wipe",
+        "always_capitalized": false,
+        "index": 330,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.19,
+        "end": 118.28,
+        "confidence": 1.0,
+        "word": "it",
+        "always_capitalized": false,
+        "index": 331,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.28,
+        "end": 118.55,
+        "confidence": 1.0,
+        "word": "out",
+        "always_capitalized": false,
+        "index": 332,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.55,
+        "end": 118.64,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 333,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.64,
+        "end": 118.82000000000001,
+        "confidence": 0.97,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 334,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.82,
+        "end": 118.97,
+        "confidence": 1.0,
+        "word": "that",
+        "always_capitalized": false,
+        "index": 335,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 118.97,
+        "end": 119.06,
+        "confidence": 0.99,
+        "word": "it's",
+        "always_capitalized": false,
+        "index": 336,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 119.06,
+        "end": 119.33,
+        "confidence": 1.0,
+        "word": "still",
+        "always_capitalized": false,
+        "index": 337,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 119.33,
+        "end": 119.84,
+        "confidence": 1.0,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 338,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 120.17,
+        "end": 120.44,
+        "confidence": 1.0,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 339,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 120.44,
+        "end": 120.59,
+        "confidence": 1.0,
+        "word": "then",
+        "always_capitalized": false,
+        "index": 340,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 120.59,
+        "end": 120.65,
+        "confidence": 0.98,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 341,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 120.65,
+        "end": 120.95,
+        "confidence": 1.0,
+        "word": "shelf",
+        "always_capitalized": false,
+        "index": 342,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 120.95,
+        "end": 121.16,
+        "confidence": 1.0,
+        "word": "life",
+        "always_capitalized": false,
+        "index": 343,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 121.16,
+        "end": 121.25,
+        "confidence": 0.99,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 344,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 121.25,
+        "end": 121.52,
+        "confidence": 0.92,
+        "word": "five",
+        "always_capitalized": false,
+        "index": 345,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 121.52,
+        "end": 121.97,
+        "confidence": 1.0,
+        "word": "years",
+        "always_capitalized": false,
+        "index": 346,
+        "punc_after": ".",
+        "punc_before": false
+    },
+    {
+        "start": 122.4,
+        "end": 123.01,
+        "confidence": 0.93,
+        "word": "Whereas",
+        "always_capitalized": false,
+        "index": 347,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.05,
+        "end": 123.17,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 348,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.17,
+        "end": 123.47,
+        "confidence": 1.0,
+        "word": "shelf",
+        "always_capitalized": false,
+        "index": 349,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.47,
+        "end": 123.74,
+        "confidence": 1.0,
+        "word": "life",
+        "always_capitalized": false,
+        "index": 350,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.74,
+        "end": 123.86,
+        "confidence": 0.97,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 351,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.86,
+        "end": 123.95,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 352,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 123.95,
+        "end": 124.19,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 353,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 124.19,
+        "end": 124.25,
+        "confidence": 1.0,
+        "word": "on",
+        "always_capitalized": false,
+        "index": 354,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 124.25,
+        "end": 124.31,
+        "confidence": 1.0,
+        "word": "the",
+        "always_capitalized": false,
+        "index": 355,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 124.31,
+        "end": 124.52,
+        "confidence": 1.0,
+        "word": "space",
+        "always_capitalized": false,
+        "index": 356,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 124.52,
+        "end": 124.82,
+        "confidence": 1.0,
+        "word": "station",
+        "always_capitalized": false,
+        "index": 357,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 124.82,
+        "end": 124.94,
+        "confidence": 1.0,
+        "word": "is",
+        "always_capitalized": false,
+        "index": 358,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 125.0,
+        "end": 125.33,
+        "confidence": 0.98,
+        "word": "18",
+        "always_capitalized": false,
+        "index": 359,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 125.33,
+        "end": 125.78,
+        "confidence": 1.0,
+        "word": "months",
+        "always_capitalized": false,
+        "index": 360,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 126.2,
+        "end": 126.68,
+        "confidence": 1.0,
+        "word": "so",
+        "always_capitalized": false,
+        "index": 361,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 126.68,
+        "end": 126.77000000000001,
+        "confidence": 1.0,
+        "word": "a",
+        "always_capitalized": false,
+        "index": 362,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 126.77,
+        "end": 127.13,
+        "confidence": 1.0,
+        "word": "five",
+        "always_capitalized": false,
+        "index": 363,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 127.13,
+        "end": 127.28,
+        "confidence": 1.0,
+        "word": "year",
+        "always_capitalized": false,
+        "index": 364,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 127.28,
+        "end": 127.7,
+        "confidence": 1.0,
+        "word": "shelf",
+        "always_capitalized": false,
+        "index": 365,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 127.7,
+        "end": 128.0,
+        "confidence": 1.0,
+        "word": "shelf",
+        "always_capitalized": false,
+        "index": 366,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 128.0,
+        "end": 128.39,
+        "confidence": 1.0,
+        "word": "life",
+        "always_capitalized": false,
+        "index": 367,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 128.69,
+        "end": 128.93,
+        "confidence": 0.98,
+        "word": "and",
+        "always_capitalized": false,
+        "index": 368,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 128.93,
+        "end": 129.14000000000001,
+        "confidence": 1.0,
+        "word": "every",
+        "always_capitalized": false,
+        "index": 369,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 129.14,
+        "end": 129.76999999999998,
+        "confidence": 1.0,
+        "word": "time",
+        "always_capitalized": false,
+        "index": 370,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 130.34,
+        "end": 130.76,
+        "confidence": 1.0,
+        "word": "item",
+        "always_capitalized": false,
+        "index": 371,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 130.76,
+        "end": 130.85,
+        "confidence": 1.0,
+        "word": "of",
+        "always_capitalized": false,
+        "index": 372,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 130.85,
+        "end": 131.48,
+        "confidence": 1.0,
+        "word": "food",
+        "always_capitalized": false,
+        "index": 373,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 131.6,
+        "end": 131.69,
+        "confidence": 1.0,
+        "word": "you",
+        "always_capitalized": false,
+        "index": 374,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 131.69,
+        "end": 131.9,
+        "confidence": 1.0,
+        "word": "know",
+        "always_capitalized": false,
+        "index": 375,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 131.9,
+        "end": 132.41,
+        "confidence": 0.99,
+        "word": "sits",
+        "always_capitalized": false,
+        "index": 376,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 132.41,
+        "end": 132.85999999999999,
+        "confidence": 0.98,
+        "word": "there",
+        "always_capitalized": false,
+        "index": 377,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 133.13,
+        "end": 133.28,
+        "confidence": 1.0,
+        "word": "for",
+        "always_capitalized": false,
+        "index": 378,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 133.28,
+        "end": 133.49,
+        "confidence": 1.0,
+        "word": "another",
+        "always_capitalized": false,
+        "index": 379,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 133.49,
+        "end": 133.82000000000002,
+        "confidence": 1.0,
+        "word": "month",
+        "always_capitalized": false,
+        "index": 380,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 133.82,
+        "end": 134.09,
+        "confidence": 1.0,
+        "word": "another",
+        "always_capitalized": false,
+        "index": 381,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 134.09,
+        "end": 134.3,
+        "confidence": 1.0,
+        "word": "month",
+        "always_capitalized": false,
+        "index": 382,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 134.3,
+        "end": 134.53,
+        "confidence": 0.96,
+        "word": "another",
+        "always_capitalized": false,
+        "index": 383,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 134.54,
+        "end": 135.01999999999998,
+        "confidence": 1.0,
+        "word": "month",
+        "always_capitalized": false,
+        "index": 384,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 135.29,
+        "end": 135.41,
+        "confidence": 0.99,
+        "word": "it",
+        "always_capitalized": false,
+        "index": 385,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 135.42,
+        "end": 135.73999999999998,
+        "confidence": 0.9,
+        "word": "loses",
+        "always_capitalized": false,
+        "index": 386,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 135.74,
+        "end": 136.16,
+        "confidence": 1.0,
+        "word": "nutritional",
+        "always_capitalized": false,
+        "index": 387,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 136.16,
+        "end": 136.60999999999999,
+        "confidence": 1.0,
+        "word": "value",
+        "always_capitalized": false,
+        "index": 388,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 136.64,
+        "end": 136.79,
+        "confidence": 0.99,
+        "word": "it",
+        "always_capitalized": false,
+        "index": 389,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 136.79,
+        "end": 137.12,
+        "confidence": 1.0,
+        "word": "loses",
+        "always_capitalized": false,
+        "index": 390,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 137.12,
+        "end": 137.6,
+        "confidence": 0.97,
+        "word": "flavor",
+        "always_capitalized": false,
+        "index": 391,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 137.66,
+        "end": 137.75,
+        "confidence": 1.0,
+        "word": "it",
+        "always_capitalized": false,
+        "index": 392,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 137.75,
+        "end": 138.05,
+        "confidence": 1.0,
+        "word": "loses",
+        "always_capitalized": false,
+        "index": 393,
+        "punc_after": false,
+        "punc_before": false
+    },
+    {
+        "start": 138.05,
+        "end": 138.5,
+        "confidence": 1.0,
+        "word": "texture",
+        "always_capitalized": false,
+        "index": 394,
+        "punc_after": ".",
+        "punc_before": false
+    }
+]
