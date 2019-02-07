@@ -1,88 +1,13 @@
-"""
-
-fields for converted transcript:
-
-    start
-    end
-    word
-    confidence
-    index
-    always_capitalized
-    punc_before
-    punc_after
-
-"""
-
 from collections import namedtuple
-from decimal import Decimal
 import json
-from typing import Dict, Union, List
 
-import helpers
-
-
-def amazon_converter(data: dict):
-    data = json.load(data)
-    converted_words = []
-    words = data['results']['items']
-    tagged_words = helpers.tag_words(
-        [w['alternatives'][0]['content'] for w in words])
-    punc_before = False
-    punc_after = False
-    num_words = len(words)
-    index = 0
-
-    for i, w in enumerate(words):
-        if w['type'] == 'punctuation':
-            continue
-        next_word_punc_after = None
-        word_start = float(w['start_time'])
-        word_end = float(w['end_time'])
-        confidence = float(w['alternatives'][0]['confidence'])
-        word = w['alternatives'][0]['content']
-        is_proper_noun = tagged_words[i][1] in helpers.PROPER_NOUN_TAGS
-
-        next_word = None
-        if i < num_words - 1:
-            next_word = words[i + 1]['alternatives'][0]['content']
-            next_word_type = words[i + 1]['type']
-        if next_word == '.':
-            punc_after = '.'
-        elif next_word == ',':
-            punc_after = ','
-        elif next_word_punc_after:
-            punc_after = next_word_punc_after
-            next_word_punc_after = None
-
-        if word == 'i':
-            # weird Amazon quirk
-            word = 'I'
-
-        if word.lower() == 'you' and next_word == 'know':
-            prev_word = words[i - 1]
-            if prev_word['type'] != 'punctuation':
-                converted_words[-1]['punc_after'] = ','
-            if next_word_type != 'punctuation':
-                next_word_punc_after = ','
-
-        converted_words.append({
-            'start': word_start,
-            'end': word_end,
-            'confidence': confidence,
-            'word': word,
-            'always_capitalized': is_proper_noun or word == 'I',
-            'index': index,
-            'punc_after': punc_after,
-            'punc_before': punc_before,
-        })
-
-        index += 1
-        punc_after = False
-
-    return converted_words
+from transcript_processing import helpers
 
 
-def speechmatics_converter(data: dict):
+Word = namedtuple('Word', 'start end word')
+
+
+def speechmatics_converter(data):
     data = json.load(data)
     converted_words = []
     words = data['words']
@@ -126,7 +51,6 @@ def speechmatics_converter(data: dict):
 
 def speechmatics_aligned_text_converter(data):
     data = data.readlines()[0]
-    Word = namedtuple('Word', 'start end word')
 
     class Exhausted(Exception):
         pass
@@ -186,8 +110,4 @@ def speechmatics_aligned_text_converter(data):
     return converted_words
 
 
-converters = {
-    'speechmatics': speechmatics_converter,
-    'speechmatics_align': speechmatics_aligned_text_converter,
-    'amazon': amazon_converter,
-}
+def gentle_converter
