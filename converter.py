@@ -4,7 +4,7 @@ from collections import namedtuple
 import os
 
 import helpers
-from transcript_processing.converters import converters
+import converters
 
 
 
@@ -27,8 +27,7 @@ class TranscriptConverter:
             word_objects = self.get_word_objects(data)
             words = self.get_words(word_objects)
 
-            if self.output_target == 'interactive_transcript':
-                tagged_words = helpers.tag_words(words)
+            tagged_words = helpers.tag_words(words)
 
             self.converted_words = self.convert_words(
                     word_objects,
@@ -89,10 +88,19 @@ class TranscriptConverter:
         if index < len(word_objects) - 1:
             return word_objects[index + 1]
 
-    def to_json(self):
+    def interactive_transcript(self):
         return json.dumps(self.converted_words, indent=4)
+
+    def viral_overlay(self):
+        return json.dumps(
+                [{'start': word['start'],
+                  'stop': word['end'],
+                  'word': word['word']}
+                  for word in self.converted_words],
+                indent=4
+                )
 
     def save(self, path):
         with open(path, 'w') as fout:
-            fout.write(self.to_json())
+            fout.write(getattr(self, self.output_target)())
         return path

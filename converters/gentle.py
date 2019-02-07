@@ -1,17 +1,14 @@
-import json
-
 from converter import TranscriptConverter
-import helpers
 
 
 
-class AmazonConverter(TranscriptConverter):
+class GentleConverter(TranscriptConverter):
 
     def __init__(self, path, output_target):
         super().__init__(path, output_target)
 
     def get_word_objects(self, json_data):
-        return json_data['results']['items']
+        return json_data['words']
 
     def get_words(self, word_objects):
         return [self.get_word_word(w)
@@ -19,53 +16,29 @@ class AmazonConverter(TranscriptConverter):
 
     @staticmethod
     def get_word_start(word_object):
-        return float(word_object['start_time'])
+        return word_object['start']
 
     @staticmethod
     def get_word_end(word_object):
-        return float(word_object['end_time'])
+        return word_object['end']
 
     @staticmethod
     def get_word_confidence(word_object):
-        return float(word_object['alternatives'][0]['confidence'])
+        return 1
 
     @staticmethod
     def get_word_word(word_object):
-        word_word = word_object['alternatives'][0]['content']
-        if word_word == 'i':
-            # weird Amazon quirk
-            word_word = 'I'
-        return word_word
+        return word_object['alignedWord']
 
     def convert_words(self, word_objects, words, tagged_words=None):
         converted_words = []
-
         punc_before = False
         punc_after = False
         num_words = len(words)
         index = 0
 
         for i, w in enumerate(word_objects):
-            if w['type'] == 'punctuation':
-                continue
-            next_word_punc_after = None
             word_obj = self.get_word_object(w, i, tagged_words, word_objects)
-
-            if word_obj.next_word:
-                next_word = self.get_word_word(word_obj.next_word)
-                next_word_type = word_obj.next_word['type']
-                if next_word in ['.', ',']:
-                    punc_after = next_word
-                elif next_word_punc_after:
-                    punc_after = next_word_punc_after
-                    next_word_punc_after = None
-
-            if word_obj.word.lower() == 'you' and next_word == 'know':
-                prev_word = word_objects[i - 1]
-                if prev_word['type'] != 'punctuation':
-                    converted_words[-1]['punc_after'] = ','
-                if next_word_type != 'punctuation':
-                    next_word_punc_after = ','
 
             converted_words.append({
                 'start': word_obj.start,
@@ -84,3 +57,4 @@ class AmazonConverter(TranscriptConverter):
             punc_after = False
 
         return converted_words
+
