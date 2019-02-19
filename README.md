@@ -33,7 +33,8 @@ formats.
 
 ## Non-pip Requirement:  Stanford NER JAR
 
-  - download the .jar [here](https://nlp.stanford.edu/software/CRF-NER.shtml#Download)
+  - download and unzip [this](https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip)
   - put these files in in /usr/local/bin/:
     - stanford-ner.jar
-    - english.all.3class.distsim.crf.ser.gz
+    - classifiers/english.all.3class.distsim.crf.ser.gz
+  - on Ubuntu you might have to [update Java](https://askubuntu.com/questions/508546/howto-upgrade-java-on-ubuntu-14-04-lts)
