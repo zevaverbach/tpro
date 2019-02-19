@@ -1,15 +1,17 @@
 from collections import namedtuple
 import json
 
-from converter import TranscriptConverter
-import helpers
+from ..converter import TranscriptConverter
+from .. import helpers
 
 
 
 class SpeechmaticsConverter(TranscriptConverter):
 
-    def __init__(self, path, output_target):
-        super().__init__(path, output_target)
+    name = 'speechmatics'
+
+    def __init__(self, path):
+        super().__init__(path)
 
     def get_word_objects(self, json_data):
         return json_data['words']
@@ -40,7 +42,6 @@ class SpeechmaticsConverter(TranscriptConverter):
         punc_before = False
         punc_after = False
         num_words = len(words)
-        index = 0
 
         for i, w in enumerate(word_objects):
             word_obj = self.get_word_object(w, i, tagged_words, word_objects)
@@ -60,57 +61,13 @@ class SpeechmaticsConverter(TranscriptConverter):
                 'always_capitalized': (
                     word_obj.is_proper_noun 
                     or word_obj.word == 'I'),
-                'index': index,
                 'punc_after': punc_after,
                 'punc_before': punc_before,
             })
 
-            index += 1
             punc_after = False
 
         return converted_words
-
-
-def speechmatics_converter(data):
-    data = json.load(data)
-    converted_words = []
-    words = data['words']
-    tagged_words = helpers.tag_words([w['name'] for w in words])
-    punc_before = False
-    punc_after = False
-    num_words = len(words)
-    index = 0
-
-    for i, w in enumerate(words):
-        word_start = float(w['time'])
-        word_end = word_start + float(w['duration'])
-        confidence = float(w['confidence'])
-        word = w['name']
-        if word == '.':
-            continue
-        is_proper_noun = tagged_words[i][1] in helpers.PROPER_NOUN_TAGS
-
-        next_word = None
-        if i < num_words - 1:
-            next_word = words[i + 1]['name']
-        if next_word == '.':
-            punc_after = '.'
-
-        converted_words.append({
-            'start': word_start,
-            'end': word_end,
-            'confidence': confidence,
-            'word': word,
-            'always_capitalized': is_proper_noun or word == 'I',
-            'index': index,
-            'punc_after': punc_after,
-            'punc_before': punc_before,
-        })
-
-        index += 1
-        punc_after = False
-
-    return converted_words
 
 
 def speechmatics_aligned_text_converter(data):
@@ -167,7 +124,10 @@ def speechmatics_aligned_text_converter(data):
             'end': word.end,
             'confidence': 1,
             'word': the_word,
-            'always_capitalized': is_proper_noun or word == 'I',
+            'always_capitalized': self.check_if_always_capitalized(
+                word.word, 
+                i,
+                tagged_words),
             'index': i,
             'punc_before': punc_before,
             'punc_after': punc_after,

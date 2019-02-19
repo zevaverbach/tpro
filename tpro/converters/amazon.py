@@ -1,14 +1,16 @@
 import json
 
-from converter import TranscriptConverter
-import helpers
+from ..converter import TranscriptConverter
+from .. import helpers
 
 
 
 class AmazonConverter(TranscriptConverter):
 
-    def __init__(self, path, output_target):
-        super().__init__(path, output_target)
+    name = 'amazon'
+
+    def __init__(self, json_data):
+        super().__init__(json_data)
 
     def get_word_objects(self, json_data):
         return json_data['results']['items']
@@ -43,7 +45,6 @@ class AmazonConverter(TranscriptConverter):
         punc_before = False
         punc_after = False
         num_words = len(words)
-        index = 0
 
         for i, w in enumerate(word_objects):
             if w['type'] == 'punctuation':
@@ -72,15 +73,14 @@ class AmazonConverter(TranscriptConverter):
                 'end': word_obj.end,
                 'confidence': word_obj.confidence,
                 'word': word_obj.word,
-                'always_capitalized': (
-                    word_obj.is_proper_noun 
-                    or word_obj.word == 'I'),
-                'index': index,
+                'always_capitalized': self.check_if_always_capitalized(
+                    word_obj.word, 
+                    i,
+                    tagged_words),
                 'punc_after': punc_after,
                 'punc_before': punc_before,
             })
 
-            index += 1
             punc_after = False
 
         return converted_words

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from nltk.tag.stanford import StanfordNERTagger
 
 st = StanfordNERTagger('/usr/local/bin/english.all.3class.distsim.crf.ser.gz',
@@ -35,3 +37,7 @@ def get_punc_after(word):
             return punc
         if char in PUNCTUATION:
             punc.insert(0, char)
+
+
+def is_path(string):
+    return '/' in string and Path(string).exists()

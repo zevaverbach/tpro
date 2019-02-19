@@ -1,39 +1,35 @@
 import abc
-import json
 from collections import namedtuple
 import os
 
-import helpers
-import converters
+from . import helpers
+from . import converters
 
 
 
-Word = namedtuple('Word', 'start end confidence word is_proper_noun next_word')
+Word = namedtuple('Word', 'start end confidence word always_capitalized next_word')
 
 
 class TranscriptConverter:
 
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self, path, output_target):
-        self.path = path
-        self.output_target = output_target
+    def __init__(self, json_data):
+        self.json_data = json_data
 
     def convert(self):
         tagged_words = None
 
-        with open(self.path) as f:
-            data = json.load(f)
-            word_objects = self.get_word_objects(data)
-            words = self.get_words(word_objects)
+        word_objects = self.get_word_objects(self.json_data)
+        words = self.get_words(word_objects)
 
-            tagged_words = helpers.tag_words(words)
+        tagged_words = helpers.tag_words(words)
 
-            self.converted_words = self.convert_words(
-                    word_objects,
-                    words,
-                    tagged_words
-                    )
+        self.converted_words = self.convert_words(
+                word_objects,
+                words,
+                tagged_words
+                )
 
     @staticmethod
     @abc.abstractmethod
@@ -71,16 +67,20 @@ class TranscriptConverter:
         pass
 
     @staticmethod
-    def check_if_proper_noun(index, tagged_words):
-        return tagged_words[index][1] in helpers.PROPER_NOUN_TAGS
+    def check_if_always_capitalized(word, index, tagged_words):
+        if word.upper() == 'I':
+            return True
+        word_category = tagged_words[index][1] 
+        return word_category in helpers.PROPER_NOUN_TAGS
 
     def get_word_object(self, word_object, index, tagged_words, word_objects):
+        word = self.get_word_word(word_object)
         return Word(
             self.get_word_start(word_object),
             self.get_word_end(word_object),
             self.get_word_confidence(word_object),
-            self.get_word_word(word_object),
-            self.check_if_proper_noun(index, tagged_words),
+            word,
+            self.check_if_always_capitalized(word, index, tagged_words),
             self.get_next_word(word_objects, index)
                 ) 
 
@@ -88,19 +88,13 @@ class TranscriptConverter:
         if index < len(word_objects) - 1:
             return word_objects[index + 1]
 
-    def interactive_transcript(self):
-        return json.dumps(self.converted_words, indent=4)
-
-    def viral_overlay(self):
-        return json.dumps(
-                [{'start': word['start'],
-                  'stop': word['end'],
-                  'text': word['word']}
-                  for word in self.converted_words],
-                indent=4
-                )
-
-    def save(self, path):
+    def save(self, path, output_target):
         with open(path, 'w') as fout:
-            fout.write(getattr(self, self.output_target)())
+            fout.write(getattr(self, output_target)())
         return path
+
+
+from . import outputs
+for name, val in outputs.__dict__.items():
+    if callable(val):
+        setattr(TranscriptConverter, name, val)

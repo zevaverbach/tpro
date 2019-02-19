@@ -1,11 +1,14 @@
-from converter import TranscriptConverter
+from ..converter import TranscriptConverter
+
 
 
 
 class GentleConverter(TranscriptConverter):
 
-    def __init__(self, path, output_target):
-        super().__init__(path, output_target)
+    name = 'gentle'
+
+    def __init__(self, path):
+        super().__init__(path)
 
     def get_word_objects(self, json_data):
         return json_data['words']
@@ -35,7 +38,6 @@ class GentleConverter(TranscriptConverter):
         punc_before = False
         punc_after = False
         num_words = len(words)
-        index = 0
 
         for i, w in enumerate(word_objects):
             word_obj = self.get_word_object(w, i, tagged_words, word_objects)
@@ -45,15 +47,14 @@ class GentleConverter(TranscriptConverter):
                 'end': word_obj.end,
                 'confidence': word_obj.confidence,
                 'word': word_obj.word,
-                'always_capitalized': (
-                    word_obj.is_proper_noun 
-                    or word_obj.word == 'I'),
-                'index': index,
+                'always_capitalized': self.check_if_always_capitalized(
+                    word_obj.word, 
+                    i,
+                    tagged_words),
                 'punc_after': punc_after,
                 'punc_before': punc_before,
             })
 
-            index += 1
             punc_after = False
 
         return converted_words
