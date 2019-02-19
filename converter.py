@@ -95,7 +95,7 @@ class TranscriptConverter:
         return json.dumps(
                 [{'start': word['start'],
                   'stop': word['end'],
-                  'word': word['word']}
+                  'text': word['word']}
                   for word in self.converted_words],
                 indent=4
                 )
