@@ -19,7 +19,7 @@ formats.
 # Output Formats
 
 - [Universal Transcript](https://gist.github.com/zevaverbach/d2b7a19397607677878aa3268fda1002#example) (JSON)
-- [viraloverlay](https://github.com/zevaverbach/viraloverlay) (JSON)
+- [viraloverlay](https://github.com/zevaverbach/viraloverlay#json-transcript-format) (JSON)
 
 ## Planned
 
