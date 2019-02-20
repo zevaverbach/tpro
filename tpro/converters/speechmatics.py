@@ -58,9 +58,10 @@ class SpeechmaticsConverter(TranscriptConverter):
                 'end': word_obj.end,
                 'confidence': word_obj.confidence,
                 'word': word_obj.word,
-                'always_capitalized': (
-                    word_obj.is_proper_noun 
-                    or word_obj.word == 'I'),
+                'always_capitalized': self.check_if_always_capitalized(
+                    word_obj.word, 
+                    i,
+                    tagged_words),
                 'punc_after': punc_after,
                 'punc_before': punc_before,
             })

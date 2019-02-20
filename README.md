@@ -29,6 +29,8 @@ formats.
       -s, --save TEXT  save to file
       --help           Show this message and exit.
 
+### Example
+
 # STT Services
 
 - [Speechmatics](https://www.speechmatics.com/)
