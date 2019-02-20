@@ -40,4 +40,4 @@ def get_punc_after(word):
 
 
 def is_path(string):
-    return '/' in string and Path(string).exists()
+    return Path(string).exists()
