@@ -4,6 +4,8 @@ Transcript Processing! `tpro` takes JSON-formatted transcripts produced by
 various speech-to-text services and converts them to various standardized
 formats.
 
+![demo](demo.gif)
+
 # Installation and Usage
 
 ## Non-pip Requirement:  Stanford NER JAR
@@ -28,66 +30,6 @@ formats.
     Options:
       -s, --save TEXT  save to file
       --help           Show this message and exit.
-
-### Example
-
-    $ tpro '{
-
-        "job": {
-          "lang": "en",
-          "user_id": 2152310,
-          "name": "recording.mp4",
-          "duration": 7,
-          "created_at": "Mon Nov 12 14:57:06 2018",
-          "id": 9871364
-        },
-        "speakers": [
-          {
-            "duration": "6.87",
-            "confidence": null,
-            "name": "M2",
-            "time": "5.98"
-          }
-        ],
-        "words": [
-          {
-            "duration": "0.13",
-            "confidence": "0.670",
-            "name": "Hello",
-            "time": "5.98"
-          },
-          {
-            "duration": "0.45",
-            "confidence": "1.000",
-            "name": "there",
-            "time": "6.14"
-          }
-      ]
-      
-    }' speechmatics universal_transcript
-
-    [
-        {
-            "start": 5.98,
-            "end": 6.11,
-            "confidence": 0.67,
-            "word": "Hello",
-            "always_capitalized": false,
-            "punc_after": false,
-            "punc_before": false
-        },
-        {
-            "start": 6.14,
-            "end": 6.59,
-            "confidence": 1.0,
-            "word": "there",
-            "always_capitalized": false,
-            "punc_after": false,
-            "punc_before": false
-        }
-    ]
-
-    $
 
 # STT Services
 
