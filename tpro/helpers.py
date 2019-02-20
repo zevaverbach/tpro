@@ -40,4 +40,7 @@ def get_punc_after(word):
 
 
 def is_path(string):
-    return Path(string).exists()
+    try:
+        return Path(string).exists()
+    except OSError:
+        return False

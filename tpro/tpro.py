@@ -12,10 +12,13 @@ output_choices =  [k for k, v in
 
 @click.command()
 @click.option('-s', '--save', type=str, help='save to JSON file')
+@click.option('-p', '--pretty', is_flag=True,
+        help='pretty print the transcript, breaks pipeability')
 @click.argument('json_path_or_data', type=str)
 @click.argument('input_format', type=click.Choice(services.keys()))
 @click.argument('output_format', type=click.Choice(output_choices))
 def cli(save, 
+        pretty,
         json_path_or_data,
         input_format,
         output_format):
@@ -34,4 +37,4 @@ def cli(save,
         click.echo(f'{path} saved.')
     else:
         output_formatter = getattr(converter, output_format)
-        click.echo(output_formatter())
+        click.echo(output_formatter(pretty))
