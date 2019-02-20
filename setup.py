@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 
-with open('README.md') as file:
+with open('README_PYPI.md') as file:
     long_description = file.read()
 
 setup(
     name="tpro",
-    version="0.05",
+    version="0.06",
     url='https://github.com/zevaverbach/tpro',
     install_requires=[
         'Click',
