@@ -6,7 +6,7 @@ with open('README.md') as file:
 
 setup(
     name="tpro",
-    version="0.01",
+    version="0.02",
     url='https://github.com/zevaverbach/tpro',
     install_requires=[
         'Click',

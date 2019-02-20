@@ -1,8 +1,33 @@
 # tpro
 
-Transcript Processing!  `tpro` takes JSON-formatted transcripts produced by
+Transcript Processing! `tpro` takes JSON-formatted transcripts produced by
 various speech-to-text services and converts them to various standardized
 formats.
+
+# Installation and Usage
+
+## Non-pip Requirement:  Stanford NER JAR
+
+  - download and unzip [this](https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip)
+  - put these files in in /usr/local/bin/:
+    - stanford-ner.jar
+    - classifiers/english.all.3class.distsim.crf.ser.gz
+  - you might have to [update Java](https://askubuntu.com/questions/508546/howto-upgrade-java-on-ubuntu-14-04-lts) on Linux
+
+## Pip
+
+    $ pip install tpro
+
+## Usage
+
+    $ tpro --help
+
+    Usage: tpro [OPTIONS] JSON_PATH_OR_DATA [amazon|gentle|speechmatics]
+            [universal_transcript|viral_overlay]
+
+    Options:
+      -s, --save TEXT  save to file
+      --help           Show this message and exit.
 
 # STT Services
 
@@ -26,15 +51,3 @@ formats.
 - Word (`.doc`, `.docx`)
 - text files
 - SRT (subtitles)
-
-# Installation
-
-    pip install tpro
-
-## Non-pip Requirement:  Stanford NER JAR
-
-  - download and unzip [this](https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip)
-  - put these files in in /usr/local/bin/:
-    - stanford-ner.jar
-    - classifiers/english.all.3class.distsim.crf.ser.gz
-  - on Ubuntu you might have to [update Java](https://askubuntu.com/questions/508546/howto-upgrade-java-on-ubuntu-14-04-lts)

@@ -11,7 +11,7 @@ output_choices =  [k for k, v in
                    if callable(v)]
 
 @click.command()
-@click.option('-s', '--save', type=str, help='save to file')
+@click.option('-s', '--save', type=str, help='save to JSON file')
 @click.argument('json_path_or_data', type=str)
 @click.argument('input_format', type=click.Choice(services.keys()))
 @click.argument('output_format', type=click.Choice(output_choices))
