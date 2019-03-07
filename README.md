@@ -24,7 +24,7 @@ formats.
 
     $ tpro --help
 
-    Usage: tpro [OPTIONS] JSON_PATH_OR_DATA [amazon|gentle|speechmatics]
+    Usage: tpro [OPTIONS] JSON_PATH_OR_DATA [amazon|gentle|speechmatics|google]
             [universal_transcript|viral_overlay]
 
     Options:
@@ -36,11 +36,11 @@ formats.
 - [Speechmatics](https://www.speechmatics.com/)
 - [Amazon Transcribe](https://aws.amazon.com/transcribe/)
 - [Gentle](https://github.com/lowerquality/gentle)
+- [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/)
 
 ## Planned
 
 - [Watson](https://www.ibm.com/watson/services/speech-to-text/) 
-- [Google Speech](https://cloud.google.com/speech-to-text/)
 - [Mozilla's new open-source STT thing](https://github.com/mozilla/DeepSpeech)
 
 # Output Formats
