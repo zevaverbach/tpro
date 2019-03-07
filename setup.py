@@ -6,7 +6,7 @@ with open('README_PYPI.md') as file:
 
 setup(
     name="tpro",
-    version="0.08",
+    version="0.09",
     url='https://github.com/zevaverbach/tpro',
     install_requires=[
         'Click',
@@ -21,6 +21,6 @@ setup(
     long_description=long_description,
     entry_points='''
         [console_scripts]
-        tpro=tpro.tpro:cli
+        tpro=transcript_processing.tpro:cli
     ''',
         )

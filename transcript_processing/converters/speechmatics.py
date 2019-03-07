@@ -16,10 +16,6 @@ class SpeechmaticsConverter(TranscriptConverter):
     def get_word_objects(self, json_data):
         return json_data['words']
 
-    def get_words(self, word_objects):
-        return [self.get_word_word(w)
-                for w in word_objects]
-
     @staticmethod
     def get_word_start(word_object):
         return float(word_object['time'])

@@ -7,15 +7,11 @@ class GentleConverter(TranscriptConverter):
 
     name = 'gentle'
 
-    def __init__(self, path):
-        super().__init__(path)
+    def __init__(self, json_data):
+        super().__init__(json_data)
 
     def get_word_objects(self, json_data):
         return json_data['words']
-
-    def get_words(self, word_objects):
-        return [self.get_word_word(w)
-                for w in word_objects]
 
     @staticmethod
     def get_word_start(word_object):
@@ -35,8 +31,6 @@ class GentleConverter(TranscriptConverter):
 
     def convert_words(self, word_objects, words, tagged_words=None):
         converted_words = []
-        punc_before = False
-        punc_after = False
         num_words = len(words)
 
         for i, w in enumerate(word_objects):
@@ -51,8 +45,8 @@ class GentleConverter(TranscriptConverter):
                     word_obj.word, 
                     i,
                     tagged_words),
-                'punc_after': punc_after,
-                'punc_before': punc_before,
+                'punc_after': False,
+                'punc_before': False,
             })
 
             punc_after = False

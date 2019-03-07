@@ -3,9 +3,10 @@ import os
 
 import pytest
 
-from converters.amazon import AmazonConverter
-from converters.speechmatics import SpeechmaticsConverter
-from converters.gentle import GentleConverter
+from transcript_processing.converters.amazon import AmazonConverter
+from transcript_processing.converters.speechmatics import SpeechmaticsConverter
+from transcript_processing.converters.gentle import GentleConverter
+from transcript_processing.converters.google import GoogleConverter
 
 
 @pytest.fixture
@@ -20,9 +21,10 @@ def test_json_transcript(json_transcript):
 
 
 def test_amazon():
-    a = AmazonConverter(
-            os.getenv('AMAZON_TRANSCRIPT_TEST_FILE'),
-            'interactive_transcript')
+    with open(os.getenv('AMAZON_TRANSCRIPT_TEST_FILE'), 'r') as fin:
+        json_data = json.load(fin)
+
+    a = AmazonConverter(json_data)
     a.convert()
     assert a.converted_words[0] == {
             'start': 5.49, 
@@ -30,16 +32,17 @@ def test_amazon():
             'confidence': 1.0,
             'word': 'So',
             'always_capitalized': False,
-            'index': 0,
             'punc_after': False,
             'punc_before': False
             }
 
 
 def test_speechmatics():
-    a = SpeechmaticsConverter(
-            os.getenv('SPEECHMATICS_TRANSCRIPT_TEST_FILE'),
-            'interactive_transcript')
+    with open(os.getenv('SPEECHMATICS_TRANSCRIPT_TEST_FILE'), 'r') as fin:
+        json_data = json.load(fin)
+
+    a = SpeechmaticsConverter(json_data)
+            
     a.convert()
     assert a.converted_words[0] == {
             'start': 5.98,
@@ -47,16 +50,16 @@ def test_speechmatics():
             'confidence': 0.67,
             'word': 'For',
             'always_capitalized': False,
-            'index': 0,
             'punc_after': False,
             'punc_before': False,
             }
 
 
 def test_gentle():
-    a = GentleConverter(
-            os.getenv('GENTLE_TRANSCRIPT_TEST_FILE'),
-            'interactive_transcript')
+    with open(os.getenv('GENTLE_TRANSCRIPT_TEST_FILE'), 'r') as fin:
+        json_data = json.load(fin)
+
+    a = GentleConverter(json_data)
     a.convert()
     assert a.converted_words[0] == {
             'start': 0.35,
@@ -64,7 +67,25 @@ def test_gentle():
             'confidence': 1, 
             'word': '[noise]', 
             'always_capitalized': False, 
-            'index': 0, 
             'punc_after': False,
             'punc_before': False
             }
+
+
+def test_google():
+    with open(os.getenv('GOOGLE_TRANSCRIPT_TEST_FILE'), 'r') as fin:
+        transcript_data = fin.read()
+
+    g = GoogleConverter(transcript_data)
+            
+    g.convert()
+    assert g.converted_words[0] == {
+            'start': 4,
+            'end': 5.5,
+            'confidence': 0.88,
+            'word': 'Testing',
+            'always_capitalized': False,
+            'punc_after': [','],
+            'punc_before': False,
+            }
+

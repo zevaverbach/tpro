@@ -14,7 +14,7 @@ class TranscriptConverter:
 
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self, json_data):
+    def __init__(self, json_data: dict):
         self.json_data = json_data
 
     def convert(self):
@@ -31,19 +31,16 @@ class TranscriptConverter:
                 tagged_words
                 )
 
-    @staticmethod
     @abc.abstractmethod
-    def get_word_objects(json_data):
+    def get_word_objects(self, json_data):
         pass
 
-    @staticmethod
-    @abc.abstractmethod
-    def get_words(word_objects):
-        pass
+    def get_words(self, word_objects):
+        return [self.get_word_word(w)
+                for w in word_objects]
 
-    @staticmethod
     @abc.abstractmethod
-    def convert_words(word_objects, words, tagged_words=None):
+    def convert_words(self, word_objects, words, tagged_words=None):
         pass
 
     @staticmethod

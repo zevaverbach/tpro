@@ -15,10 +15,6 @@ class AmazonConverter(TranscriptConverter):
     def get_word_objects(self, json_data):
         return json_data['results']['items']
 
-    def get_words(self, word_objects):
-        return [self.get_word_word(w)
-                for w in word_objects]
-
     @staticmethod
     def get_word_start(word_object):
         return float(word_object['start_time'])
@@ -32,7 +28,7 @@ class AmazonConverter(TranscriptConverter):
         return float(word_object['alternatives'][0]['confidence'])
 
     @staticmethod
-    def get_word_word(word_object):
+    def get_word_word(word_object) -> str:
         word_word = word_object['alternatives'][0]['content']
         if word_word == 'i':
             # weird Amazon quirk
@@ -44,7 +40,6 @@ class AmazonConverter(TranscriptConverter):
 
         punc_before = False
         punc_after = False
-        num_words = len(words)
 
         for i, w in enumerate(word_objects):
             if w['type'] == 'punctuation':
