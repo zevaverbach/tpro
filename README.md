@@ -1,6 +1,6 @@
 # tpro
 
-Transcript Processing! `tpro` takes JSON-formatted transcripts produced by
+Transcript Processing! `tpro` takes transcripts produced by
 various speech-to-text services and converts them to various standardized
 formats.
 

@@ -11,30 +11,27 @@ output_choices =  [k for k, v in
                    if callable(v)]
 
 @click.command()
-@click.option('-s', '--save', type=str, help='save to JSON file')
-@click.option('-p', '--pretty', is_flag=True,
+@click.option('-p', '--print-output', is_flag=True, default=True,
         help='pretty print the transcript, breaks pipeability')
-@click.argument('json_path_or_data', type=str)
+@click.argument('transcript_data_path', type=click.File('r'))
+@click.argument('output_path', type=click.Path(writable=True, dir_okay=False))
 @click.argument('input_format', type=click.Choice(services.keys()))
 @click.argument('output_format', type=click.Choice(output_choices))
-def cli(save, 
-        pretty,
-        json_path_or_data,
+def cli(print_output,
+        transcript_data_path,
+        output_path,
         input_format,
         output_format):
 
-    if not helpers.is_path(json_path_or_data):
-        json_data = json.loads(json_path_or_data)
-    else:
-        with open(json_path_or_data) as fin:
-            json_data = json.load(fin)
+    json_data = json.load(transcript_data_path)
     service = services[input_format]
+
     converter = service(json_data)
     converter.convert()
-    if save:
-        path = save
-        converter.save(path, output_format)
-        click.echo(f'{path} saved.')
-    else:
-        output_formatter = getattr(converter, output_format)
-        click.echo(output_formatter(pretty))
+    converter.save(output_path, output_format)
+
+    if print_output:
+        with open(output_path) as fin:
+            click.echo(fin.read())
+
+    click.echo(f'☝☝☝ There\'s your transcript, which was saved to {output_path}.')
