@@ -27,6 +27,7 @@ def test_pre_process(transcript):
 
     g = GoogleConverter(transcript_data)
     assert g.json_data
+    print(g.json_data)
             
 
 

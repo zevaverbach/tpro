@@ -111,3 +111,4 @@ formats.
 - Word (`.doc`, `.docx`)
 - text files
 - SRT (subtitles)
+- Draft.js JSON

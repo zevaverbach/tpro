@@ -79,13 +79,14 @@ def test_google():
     g = GoogleConverter(transcript_data)
             
     g.convert()
+    print(g.converted_words[0])
     assert g.converted_words[0] == {
-            'start': 4,
-            'end': 5.5,
-            'confidence': 0.88,
-            'word': 'Testing',
-            'always_capitalized': False,
-            'punc_after': [','],
-            'punc_before': False,
-            }
-
+        'start': 0.4, 
+        'end': 2.1,
+        'confidence': 0.9128385782241821,
+        'word': 'Okay',
+        'always_capitalized': False,
+        'punc_after': [','],
+        'punc_before': False,
+        'speaker_id': None
+        }

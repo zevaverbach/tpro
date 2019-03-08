@@ -35,6 +35,10 @@ class AmazonConverter(TranscriptConverter):
             word_word = 'I'
         return word_word
 
+    @staticmethod
+    def get_speaker_id(word_object):
+        return None
+
     def convert_words(self, word_objects, words, tagged_words=None):
         converted_words = []
 
@@ -74,6 +78,7 @@ class AmazonConverter(TranscriptConverter):
                     tagged_words),
                 'punc_after': punc_after,
                 'punc_before': punc_before,
+                'speaker_id': word_obj.speaker_id,
             })
 
             punc_after = False

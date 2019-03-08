@@ -7,7 +7,9 @@ from . import converters
 
 
 
-Word = namedtuple('Word', 'start end confidence word always_capitalized next_word')
+Word = namedtuple(
+        'Word', 
+        'start end confidence word always_capitalized next_word speaker_id')
 
 
 class TranscriptConverter:
@@ -60,6 +62,11 @@ class TranscriptConverter:
 
     @staticmethod
     @abc.abstractmethod
+    def get_speaker_id(word_object):
+        pass
+
+    @staticmethod
+    @abc.abstractmethod
     def get_word_word(word_object):
         pass
 
@@ -78,7 +85,8 @@ class TranscriptConverter:
             self.get_word_confidence(word_object),
             word,
             self.check_if_always_capitalized(word, index, tagged_words),
-            self.get_next_word(word_objects, index)
+            self.get_next_word(word_objects, index),
+            self.get_speaker_id(word_object),
                 ) 
 
     def get_next_word(self, word_objects, index):

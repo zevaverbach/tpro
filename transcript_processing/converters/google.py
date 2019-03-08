@@ -14,7 +14,12 @@ class GoogleConverter(TranscriptConverter):
 
     def pre_process(self, transcript_data):
         friendly = make_json_friendly(transcript_data)
-        return json.loads(friendly)
+        json_data = json.loads(friendly)
+        last_datum = json_data[-1]
+        if last_datum.get('speaker_tag'):
+            """Get rid of duplicate content that doesn't have speaker_tags"""
+            json_data = [jd for jd in json_data if jd.get('speaker_tag')]
+        return json_data
 
     def get_word_objects(self, json_data):
         return json_data
@@ -47,6 +52,7 @@ class GoogleConverter(TranscriptConverter):
                     tagged_words),
                 'punc_after': punc_after,
                 'punc_before': punc_before,
+                'speaker_id': word_obj.speaker_id,
             })
 
         return converted_words
@@ -74,13 +80,13 @@ class GoogleConverter(TranscriptConverter):
 
     @staticmethod
     def get_word_word(word_object):
-        print(word_object)
         return word_object['word']
 
 
 
 def make_json_friendly(json_string):
-    lines = [line.strip() for line in json_string.split('\\n')]
+    lines = [line.strip() for line in json_string.split('\n')]
+    new_string = '['
 
     fields = [
         'words {', 
@@ -92,54 +98,41 @@ def make_json_friendly(json_string):
         'confidence: '
         ]
 
-    current_field_index = 0
-    new_string = ''
+    start_field = 'words {'
 
-    for line in lines:
+    open_braces = 0
 
-        current_field = fields[current_field_index]
+    for index, line in enumerate(lines):
+        if open_braces == 0:
+            if start_field in line:
+                open_braces = 1
+                new_string += '{'
+            continue
 
-        if current_field in line:
-            if current_field_index == len(fields) - 1:
-               current_field_index = 0
-            else:
-                current_field_index += 1
-                if current_field_index == 1:
-                    new_string += '}, {'
-                    # "words" was found, don't want to append that
-                    continue
+        if '{' in line:
+            open_braces += 1
+        if '}' in line:
+            open_braces -= 1
 
-        else:
-            if current_field_index == 0:
-                # haven't found the beginning of the next word object
-                continue
-
-        # add quotes around keys
-        line = re.sub('^(?!")([0-9a-zA-Z_]+)', 
-                        '"\\1"', 
-                        line)
-
-        # add colons after keys
-        if line.endswith('{'):
-            line = line.replace('" ', '": ')
-
-        # use first two decimals of confidence
-        if 'confidence' in current_field:
-            line = ', ' + line
-            line = line[:20]
-
-        if current_field == '}':
+        if open_braces > 0 and '{' not in line and '}' not in lines[index + 1]:
             line = line + ', '
+
+        if open_braces == 0:
+            new_string += '}, '
+            continue
+
+        line = re.sub('^(?!")([0-9a-zA-Z_]+)',
+                '"\\1"',
+                line)
+
+        if 'start_time' in line:
+            line = line.replace('"start_time"', '"start_time":')
+        if 'end_time' in line:
+            line = line.replace('"end_time"', '"end_time":')
 
         new_string += line
 
-    # cleanup
-    if new_string.startswith('}, '):
-        new_string = new_string[3:]
-    if not new_string.startswith('['):
-        new_string = '[' + new_string
-    if not new_string.endswith('}]'):
-        new_string = new_string + '}]'
-    new_string = new_string.replace(', }', '}').replace('\\', '')
+    new_string = new_string.replace('\\', '')
 
-    return new_string
+
+    return new_string[:-2] + ']'
