@@ -62,7 +62,7 @@ class TranscriptConverter:
 
     @staticmethod
     @abc.abstractmethod
-    def get_speaker_id(word_object):
+    def get_speaker_id(word_object, speaker_segments=None):
         pass
 
     @staticmethod
@@ -77,7 +77,14 @@ class TranscriptConverter:
         word_category = tagged_words[index][1] 
         return word_category in helpers.PROPER_NOUN_TAGS
 
-    def get_word_object(self, word_object, index, tagged_words, word_objects):
+    def get_word_object(
+            self, 
+            word_object, 
+            index, 
+            tagged_words, 
+            word_objects,
+            speaker_segments=None,
+            ):
         word = self.get_word_word(word_object)
         return Word(
             self.get_word_start(word_object),
@@ -86,7 +93,7 @@ class TranscriptConverter:
             word,
             self.check_if_always_capitalized(word, index, tagged_words),
             self.get_next_word(word_objects, index),
-            self.get_speaker_id(word_object),
+            self.get_speaker_id(word_object, speaker_segments),
                 ) 
 
     def get_next_word(self, word_objects, index):

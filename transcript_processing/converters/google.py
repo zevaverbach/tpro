@@ -57,6 +57,10 @@ class GoogleConverter(TranscriptConverter):
 
         return converted_words
 
+    @staticmethod
+    def get_speaker_id(word_object, _):
+        return word_object.get('speaker_tag')        
+
     @classmethod
     def get_word_start(cls, word_object):
         return cls.get_seconds(word_object['start_time'])
@@ -88,16 +92,6 @@ def make_json_friendly(json_string):
     lines = [line.strip() for line in json_string.split('\n')]
     new_string = '['
 
-    fields = [
-        'words {', 
-        'start_time {', 
-        '}',
-        'end_time {', 
-        '}',
-        'word: ', 
-        'confidence: '
-        ]
-
     start_field = 'words {'
 
     open_braces = 0
@@ -114,12 +108,12 @@ def make_json_friendly(json_string):
         if '}' in line:
             open_braces -= 1
 
-        if open_braces > 0 and '{' not in line and '}' not in lines[index + 1]:
-            line = line + ', '
-
         if open_braces == 0:
             new_string += '}, '
             continue
+
+        elif '{' not in line and '}' not in lines[index + 1]:
+            line = line + ', '
 
         line = re.sub('^(?!")([0-9a-zA-Z_]+)',
                 '"\\1"',
@@ -133,6 +127,5 @@ def make_json_friendly(json_string):
         new_string += line
 
     new_string = new_string.replace('\\', '')
-
 
     return new_string[:-2] + ']'

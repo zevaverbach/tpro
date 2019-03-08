@@ -1,4 +1,5 @@
 import json
+from typing import Dict, Optional
 
 from ..converter import TranscriptConverter
 from .. import helpers
@@ -12,8 +13,27 @@ class AmazonConverter(TranscriptConverter):
     def __init__(self, json_data):
         super().__init__(json_data)
 
-    def get_word_objects(self, json_data):
+    def get_word_objects(self, json_data) -> list:
         return json_data['results']['items']
+
+    def get_speaker_segments(self) -> Optional[Dict[float, str]]:
+        try:
+            segments = self.json_data['results']['speaker_labels']['segments']
+        except KeyError:
+            return None
+        else:
+            segment_dict = {}
+            for segment in segments:
+                word_level_segment = segment['items']
+                for word in word_level_segment:
+                    start_time = float(word['start_time'])
+                    speaker_label = word['speaker_label']
+                    speaker_id = ''
+                    for char in speaker_label:
+                        if char.isnumeric():
+                            speaker_id += char
+                    segment_dict[start_time] = int(speaker_id)
+            return segment_dict
 
     @staticmethod
     def get_word_start(word_object):
@@ -35,12 +55,17 @@ class AmazonConverter(TranscriptConverter):
             word_word = 'I'
         return word_word
 
-    @staticmethod
-    def get_speaker_id(word_object):
-        return None
+    @classmethod
+    def get_speaker_id(cls, word_object, speaker_segments=None):
+        if speaker_segments is None:
+            return None
+        else:
+            word_start = cls.get_word_start(word_object)
+            return speaker_segments[word_start]
 
     def convert_words(self, word_objects, words, tagged_words=None):
         converted_words = []
+        speaker_segments = self.get_speaker_segments()
 
         punc_before = False
         punc_after = False
@@ -49,7 +74,13 @@ class AmazonConverter(TranscriptConverter):
             if w['type'] == 'punctuation':
                 continue
             next_word_punc_after = None
-            word_obj = self.get_word_object(w, i, tagged_words, word_objects)
+            word_obj = self.get_word_object(
+                    w, 
+                    i,
+                    tagged_words,
+                    word_objects,
+                    speaker_segments,
+                    )
 
             if word_obj.next_word:
                 next_word = self.get_word_word(word_obj.next_word)
