@@ -6,7 +6,7 @@ with open('README_PYPI.md') as file:
 
 setup(
     name="tpro",
-    version="0.12",
+    version="0.13",
     url='https://github.com/zevaverbach/tpro',
     install_requires=[
         'Click',

@@ -33,6 +33,11 @@ class TranscriptConverter:
                 tagged_words
                 )
 
+    @property        
+    @abc.abstractmethod
+    def transcript_type(self):
+        pass
+
     @abc.abstractmethod
     def get_word_objects(self, json_data):
         pass

@@ -9,6 +9,7 @@ from .. import helpers
 class AmazonConverter(TranscriptConverter):
 
     name = 'amazon'
+    transcript_type = dict
 
     def __init__(self, json_data):
         super().__init__(json_data)

@@ -10,7 +10,7 @@ def vo(self):
         if word['always_capitalized']:
             word_word = word['word'].title()
         else:
-            word_word['word']
+            word_word = word['word']
 
         transcript.append({
             'start': word['start'],

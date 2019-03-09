@@ -23,10 +23,15 @@ def cli(print_output,
         input_format,
         output_format):
 
-    json_data = json.load(transcript_data_path)
-    service = services[input_format]
+    transcript_data_file_handle = transcript_data_path
 
-    converter = service(json_data)
+    service = services[input_format]
+    if service.transcript_type == dict:
+        transcript_data = json.load(transcript_data_file_handle)
+    else:
+        transcript_data = transcript_data_file_handle.read()
+
+    converter = service(transcript_data)
     converter.convert()
     converter.save(output_path, output_format)
 

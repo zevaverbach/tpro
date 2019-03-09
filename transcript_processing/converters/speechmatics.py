@@ -9,6 +9,7 @@ from .. import helpers
 class SpeechmaticsConverter(TranscriptConverter):
 
     name = 'speechmatics'
+    transcript_type = dict
 
     def __init__(self, path):
         super().__init__(path)

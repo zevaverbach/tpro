@@ -6,6 +6,7 @@ from ..converter import TranscriptConverter
 class GentleConverter(TranscriptConverter):
 
     name = 'gentle'
+    transcript_type = dict
 
     def __init__(self, json_data):
         super().__init__(json_data)
