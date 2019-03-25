@@ -11,7 +11,7 @@ class AmazonConverter(TranscriptConverter):
     name = 'amazon'
     transcript_type = dict
 
-    def __init__(self, json_data):
+    def __init__(self, json_data, language_code='en-US'):
         super().__init__(json_data)
 
     def get_word_objects(self, json_data) -> list:

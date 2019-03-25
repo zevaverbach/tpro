@@ -10,7 +10,7 @@ class GoogleConverter(TranscriptConverter):
 
     transcript_type = str
 
-    def __init__(self, transcript_data: str):
+    def __init__(self, transcript_data: str, language_code='en-US'):
         super().__init__(transcript_data)
         self.json_data = self.pre_process(transcript_data)
 

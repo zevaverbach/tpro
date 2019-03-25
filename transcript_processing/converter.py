@@ -16,8 +16,9 @@ class TranscriptConverter:
 
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self, json_data: dict):
+    def __init__(self, json_data: dict, language_code='en-US'):
         self.json_data = json_data
+        self.language_code = language_code
 
     def convert(self):
         tagged_words = None
@@ -25,7 +26,10 @@ class TranscriptConverter:
         word_objects = self.get_word_objects(self.json_data)
         words = self.get_words(word_objects)
 
-        tagged_words = helpers.tag_words(words)
+        if self.language_code != 'en-US':
+            tagged_words = None
+        else:
+            tagged_words = helpers.tag_words(words)
 
         self.converted_words = self.convert_words(
                 word_objects,
@@ -77,10 +81,14 @@ class TranscriptConverter:
 
     @staticmethod
     def check_if_always_capitalized(word, index, tagged_words):
-        if word.upper() == 'I':
-            return True
-        word_category = tagged_words[index][1] 
-        return word_category in helpers.PROPER_NOUN_TAGS
+        if tagged_words is None:
+            return False
+
+        else:
+            if word.upper() == 'I':
+                return True
+            word_category = tagged_words[index][1] 
+            return word_category in helpers.PROPER_NOUN_TAGS
 
     def get_word_object(
             self, 

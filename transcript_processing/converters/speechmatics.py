@@ -11,7 +11,7 @@ class SpeechmaticsConverter(TranscriptConverter):
     name = 'speechmatics'
     transcript_type = dict
 
-    def __init__(self, path):
+    def __init__(self, path, language_code='en-US'):
         super().__init__(path)
 
     def get_word_objects(self, json_data):

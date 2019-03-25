@@ -13,6 +13,8 @@ output_choices =  [k for k, v in
 @click.command()
 @click.option('-p', '--print-output', is_flag=True, default=True,
         help='pretty print the transcript, breaks pipeability')
+@click.option('--language-code', default='en-US',
+        help='specify language, defaults to en-US.')
 @click.argument('transcript_data_path', type=click.File('r'))
 @click.argument('output_path', type=click.Path(writable=True, dir_okay=False))
 @click.argument('input_format', type=click.Choice(services.keys()))
@@ -21,7 +23,8 @@ def cli(print_output,
         transcript_data_path,
         output_path,
         input_format,
-        output_format):
+        output_format,
+        language_code):
 
     transcript_data_file_handle = transcript_data_path
 
@@ -31,7 +34,7 @@ def cli(print_output,
     else:
         transcript_data = transcript_data_file_handle.read()
 
-    converter = service(transcript_data)
+    converter = service(transcript_data, language_code)
     converter.convert()
     converter.save(output_path, output_format)
 
