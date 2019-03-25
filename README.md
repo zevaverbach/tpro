@@ -24,12 +24,13 @@ formats.
 
     $ tpro --help
 
-    Usage: tpro [OPTIONS] JSON_PATH_OR_DATA [amazon|gentle|speechmatics|google]
-            [universal_transcript|viral_overlay]
+    Usage: tpro [OPTIONS] TRANSCRIPT_DATA_PATH OUTPUT_PATH
+                [amazon|gentle|speechmatics|google] [universal|vo]
 
     Options:
-      -s, --save TEXT  save to file
-      --help           Show this message and exit.
+      -p, --print-output    pretty print the transcript, breaks pipeability
+      --language-code TEXT  specify language, defaults to en-US.
+      --help                Show this message and exit.
 
 # STT Services
 
@@ -50,7 +51,7 @@ formats.
 
 ## Planned
 
+- Draft.js JSON
 - Word (`.doc`, `.docx`)
 - text files
 - SRT (subtitles)
-- Draft.js JSON

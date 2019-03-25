@@ -22,18 +22,19 @@ formats.
 
     $ tpro --help
 
-    Usage: tpro [OPTIONS] JSON_PATH_OR_DATA [amazon|gentle|speechmatics|google]
-            [universal_transcript|viral_overlay]
+    Usage: tpro [OPTIONS] TRANSCRIPT_DATA_PATH OUTPUT_PATH
+            [amazon|gentle|speechmatics|google] [universal|vo]
 
     Options:
-      -s, --save TEXT  save to file
-      --help           Show this message and exit.
+      -p, --print-output    pretty print the transcript, breaks pipeability
+      --language-code TEXT  specify language, defaults to en-US.
+      --help                Show this message and exit.
 
 ### Example
 
-    $ tpro '{
-
-        "job": {
+    $ cat transcript.json 
+    
+      { "job": {
           "lang": "en",
           "user_id": 2152310,
           "name": "recording.mp4",
@@ -64,7 +65,9 @@ formats.
           }
       ]
       
-    }' speechmatics universal_transcript
+    } 
+    
+    $ tpro transcript.json converted_transcript.json speechmatics universal_transcript
 
     [
         {
@@ -87,7 +90,7 @@ formats.
         }
     ]
 
-    $
+    ☝☝☝ There\'s your transcript, which was saved to converted_transcript.json.
 
 # STT Services
 
