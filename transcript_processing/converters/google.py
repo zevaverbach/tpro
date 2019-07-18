@@ -1,3 +1,4 @@
+import codecs
 import json
 import re
 
@@ -38,6 +39,7 @@ class GoogleConverter(TranscriptConverter):
             punc_after = helpers.get_punc_after(word_obj.word) or False
 
             the_word = word_obj.word
+
             if punc_before:
                 the_word = the_word[len(punc_before):]
             if punc_after:
@@ -128,6 +130,7 @@ def make_json_friendly(json_string):
 
         new_string += line
 
-    new_string = new_string.replace('\\', '')
+    if '\\' in new_string:
+        new_string = codecs.escape_decode(new_string)[0].decode('utf-8')
 
     return new_string[:-2] + ']'

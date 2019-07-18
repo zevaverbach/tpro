@@ -87,14 +87,14 @@ class TranscriptConverter:
         else:
             if word.upper() == 'I':
                 return True
-            word_category = tagged_words[index][1] 
+            word_category = tagged_words[index][1]
             return word_category in helpers.PROPER_NOUN_TAGS
 
     def get_word_object(
-            self, 
-            word_object, 
-            index, 
-            tagged_words, 
+            self,
+            word_object,
+            index,
+            tagged_words,
             word_objects,
             speaker_segments=None,
             ):
@@ -107,7 +107,7 @@ class TranscriptConverter:
             self.check_if_always_capitalized(word, index, tagged_words),
             self.get_next_word(word_objects, index),
             self.get_speaker_id(word_object, speaker_segments),
-                ) 
+                )
 
     def get_next_word(self, word_objects, index):
         if index < len(word_objects) - 1:

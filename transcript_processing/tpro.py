@@ -11,7 +11,7 @@ output_choices =  [k for k, v in
                    if callable(v)]
 
 @click.command()
-@click.option('-p', '--print-output', is_flag=True, default=True,
+@click.option('-p', '--print-output', is_flag=True, default=False,
         help='pretty print the transcript, breaks pipeability')
 @click.option('--language-code', default='en-US',
         help='specify language, defaults to en-US.')

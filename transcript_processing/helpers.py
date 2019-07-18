@@ -24,19 +24,19 @@ def is_a_proper_noun(phrase):
 def get_punc_before(word):
     punc = []
     for char in word:
-        if char.isalpha():
-            return punc
         if char in PUNCTUATION:
             punc.append(char)
+        else:
+            return punc
 
 
 def get_punc_after(word):
     punc = []
     for char in reversed(word):
-        if char.isalpha():
-            return punc
         if char in PUNCTUATION:
             punc.insert(0, char)
+        else:
+            return punc
 
 
 def is_path(string):
